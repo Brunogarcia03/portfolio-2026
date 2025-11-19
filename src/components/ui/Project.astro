@@ -1,0 +1,102 @@
+---
+const { title, image, tech = [], description, repo, demo } = Astro.props;
+---
+
+<article
+  class="animate-reveal w-full flex flex-col space-y-8 group md:flex-row md:items-center md:gap-x-4 md:space-x-8 md:space-y-0"
+>
+  <!-- Imagen -->
+  <div class="w-full sm:w-[80%] mx-auto md:w-1/2">
+    <a href={demo} target="_blank" class="cursor-pointer">
+      <div
+        class="relative flex flex-col items-center gap-8 overflow-clip rounded-xl shadow-xl transition duration-500 ease-in-out md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 dark:lg:border-gray-200 lg:hover:border-gray-700 dark:lg:hover:border-gray-300 lg:hover:bg-gray-800/50"
+      >
+        <img
+          src={image}
+          alt={title}
+          loading="lazy"
+          class="object-cover object-top-left w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+        />
+      </div>
+    </a>
+  </div>
+
+  <!-- Contenido -->
+  <div class="w-full sm:w-[90%] mx-auto md:w-full">
+    <div class="flex items-center justify-between">
+      <a href={demo} class="cursor-pointer">
+        <h3
+          class="font-bold text-base md:text-[18px] text-black dark:text-white"
+        >
+          {title}
+        </h3>
+      </a>
+      {
+        repo && (
+          <a
+            class="flex gap-x-2 rounded-full text-xs text-white dark:text-black py-1 px-2 bg-neutral-600 hover:bg-neutral-500 dark:bg-neutral-400 dark:hover:bg-neutral-500"
+            href={repo}
+            target="_blank"
+          >
+            <svg
+              class="size-4"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <>
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2 4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2 4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6-.6 .6 -.6 1.2 -.5 2v3.5" />
+              </>
+            </svg>
+            Código
+          </a>
+        )
+      }
+    </div>
+
+    <!-- Tecnologías -->
+    <ul class="flex flex-wrap mb-2 mt-2 gap-2">
+      {
+        tech.map((t: any) => (
+          <li>
+            <span
+              class={`flex gap-x-2 rounded-full text-xs text-white py-1 px-2 ${t.color}`}
+            >
+              {/* Renderizado robusto del icon */}
+              {t.icon ? (
+                // 1) Si es string (ruta)
+                typeof t.icon === "string" ? (
+                  <img src={t.icon} alt={t.name} class="size-4" />
+                ) : // 2) Si es objeto importado (Astro devuelve { src, width, height })
+                t.icon.src ? (
+                  <img src={t.icon.src} alt={t.name} class="size-4" />
+                ) : // 3) Si es módulo que expone default (ej. import * as X)
+                t.icon.default && typeof t.icon.default === "string" ? (
+                  <img src={t.icon.default} alt={t.name} class="size-4" />
+                ) : // 4) Si es componente (SVGR / componente React/Preact)
+                typeof t.icon === "function" || typeof t.icon === "object" ? (
+                  // @ts-ignore - render dinámico de componente
+                  <t.icon class="size-4" />
+                ) : (
+                  // fallback: render con String()
+                  <img src={String(t.icon)} alt={t.name} class="size-4" />
+                )
+              ) : null}
+
+              {t.name}
+            </span>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="mt-2 text-gray-700 dark:text-gray-400">
+      {description}
+    </div>
+  </div>
+</article>

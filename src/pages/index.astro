@@ -1,0 +1,62 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import Hello from "@/components/Hello.astro";
+import About from "@/components/About.astro";
+import Pattern from "@/components/ui/Pattern.astro";
+import Projects from "@/components/Projects.astro";
+import Blog from "@/components/Blog.astro";
+import Footer from "@/components/Footer.astro";
+---
+
+<Layout>
+  <div
+    class="absolute inset-0 max-w-[650px] mx-auto max-[690px]:mx-4 pointer-events-none overflow-hidden"
+  >
+    <svg
+      data-direction="left"
+      data-variant="full-screen"
+      class="absolute pointer-events-none z-10 text-[#ddb3ff] left-0 top-0 h-full"
+      width="1"
+      height="100%"
+      viewBox="0 0 1 100"
+      preserveAspectRatio="none"
+      style="width:1px"
+      ><line
+        x1="0.5"
+        y1="0"
+        x2="0.5"
+        y2="100"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-dasharray="6 6"
+        vector-effect="non-scaling-stroke"></line></svg
+    ><svg
+      data-direction="right"
+      data-variant="full-screen"
+      class="absolute pointer-events-none z-10 text-[#ddb3ff] right-0 top-0 h-full"
+      width="1"
+      height="100%"
+      viewBox="0 0 1 100"
+      preserveAspectRatio="none"
+      style="width:1px"
+      ><line
+        x1="0.5"
+        y1="0"
+        x2="0.5"
+        y2="100"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-dasharray="6 6"
+        vector-effect="non-scaling-stroke"></line></svg
+    >
+  </div>
+  <main class="max-w-[650px] w-full mx-auto py-5 lg:py-[100px]">
+    <Hello />
+    <About />
+    <Pattern />
+    <Projects />
+    <Blog />
+    <Footer />
+  </main>
+</Layout>

@@ -1,0 +1,258 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import Github from "@/assets/Github.astro";
+import Instagram from "@/assets/Instagram.astro";
+import Linkedin from "@/assets/Linkedin.astro";
+
+import raven from "@/assets/never-more.gif";
+
+import { getCollection } from "astro:content";
+import Footer from "@/components/Footer.astro";
+const posts = (await getCollection("blog")).sort(
+  (a, b) => a.data.indice - b.data.indice
+);
+---
+
+<Layout>
+  <div
+    class="absolute inset-0 max-w-[650px] mx-auto max-[690px]:mx-4 pointer-events-none overflow-hidden"
+  >
+    <svg
+      data-direction="left"
+      data-variant="full-screen"
+      class="absolute pointer-events-none z-10 text-[#CBCBCB] left-0 top-0 h-full"
+      width="1"
+      height="100%"
+      viewBox="0 0 1 100"
+      preserveAspectRatio="none"
+      style="width:1px"
+      ><line
+        x1="0.5"
+        y1="0"
+        x2="0.5"
+        y2="100"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-dasharray="6 6"
+        vector-effect="non-scaling-stroke"></line></svg
+    ><svg
+      data-direction="right"
+      data-variant="full-screen"
+      class="absolute pointer-events-none z-10 text-[#CBCBCB] right-0 top-0 h-full"
+      width="1"
+      height="100%"
+      viewBox="0 0 1 100"
+      preserveAspectRatio="none"
+      style="width:1px"
+      ><line
+        x1="0.5"
+        y1="0"
+        x2="0.5"
+        y2="100"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-dasharray="6 6"
+        vector-effect="non-scaling-stroke"></line></svg
+    >
+  </div>
+  <main class="max-w-[650px] w-full mx-auto py-5 lg:py-[100px]">
+    <div
+      class="relative w-full flex items-center justify-between max-[690px]:px-8 px-4 py-4"
+    >
+      <svg
+        data-direction="top"
+        data-variant="full-screen"
+        class="absolute pointer-events-none z-10 text-[#ddb3ff] top-0 w-full"
+        width="100%"
+        height="1"
+        viewBox="0 0 100 1"
+        preserveAspectRatio="none"
+        style="left:50%;transform:translateX(-50%);width:100vw"
+        ><line
+          x1="0"
+          y1="0.5"
+          x2="100"
+          y2="0.5"
+          stroke="currentColor"
+          stroke-width="1"
+          stroke-dasharray="6 6"
+          vector-effect="non-scaling-stroke"></line></svg
+      ><svg
+        data-direction="bottom"
+        data-variant="full-screen"
+        class="absolute pointer-events-none z-10 text-[#ddb3ff] bottom-0 w-full"
+        width="100%"
+        height="1"
+        viewBox="0 0 100 1"
+        preserveAspectRatio="none"
+        style="left:50%;transform:translateX(-50%);width:100vw"
+        ><line
+          x1="0"
+          y1="0.5"
+          x2="100"
+          y2="0.5"
+          stroke="currentColor"
+          stroke-width="1"
+          stroke-dasharray="6 6"
+          vector-effect="non-scaling-stroke"></line></svg
+      ><div
+        class="flex sm:items-center sm:flex-row flex-col justify-between w-full"
+        style="opacity: 1; transform: none;"
+      >
+        <div
+          class="flex items-center justify-center sm:justify-start md:gap-4 gap-2"
+        >
+          <div
+            class="animate-fade-in-fast relative size-[76px] md:size-24 bg-[#ddb3ff] hidden sm:flex items-center justify-center overflow-hidden rounded-[10px]"
+          >
+            <img
+              class="absolute w-full h-full object-cover scale-110 object-[50%_-33%]"
+              src={raven.src}
+              alt="Blog"
+            />
+          </div>
+          <div class="flex flex-col justify-center w-full">
+            <h1
+              class="animate-fade-in-fast md:text-xl text-lg font-medium text-center sm:text-start md:leading-6 leading-5 text-black dark:text-white"
+            >
+              Dejo a los varios porvenires <span
+                class="inline-block text-base md:text-lg italic text-neutral-600 dark:text-neutral-400"
+                >(no a todos)</span
+              >
+            </h1>
+
+            <h2
+              class="animate-fade-in text-center sm:text-start md:text-base text-sm font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 w-full"
+            >
+              mi jardín de senderos que se bifurcan.
+            </h2>
+            <a
+              href="/"
+              class="animate-fade-in-slow group flex items-center justify-center sm:justify-start gap-1 mt-0.5 sm:mt-0 select-none font-mono z-20 bottom-3 bg-background left-3 text-center sm:text-start md:text-sm text-xs font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 animate-in fade-in slide-in-from-bottom-2 duration-300"
+            >
+              Volver al inicio <svg
+                class="size-3 shrink-0 text-neutral-300 group-hover:text-neutral-700 -rotate-45 group-hover:-rotate-90 transition-all duration-300 group-focus-visible:text-neutral-700 group-focus-visible:-rotate-90"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                ><path
+                  d="M7 17L17 7M17 7H7M17 7V17"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"></path></svg
+              >
+            </a>
+          </div>
+        </div><div
+          class="flex items-center sm:flex-col justify-around sm:justify-start gap-1 sm:mt-0 mt-4"
+        >
+          <a
+            target="_blank"
+            href="https://www.instagram.com/brugarciaok/"
+            class="animate-fade-in-fast flex items-center justify-center sm:justify-start w-full gap-1.5 text-sm font-medium text-neutral-600 dark:text-neutral-400 py-1 cursor-pointer hover:underline underline-offset-3 focus-visible:underline"
+            ><Instagram classname="size-4" /> Instagram</a
+          ><a
+            target="_blank"
+            href="https://github.com/Brunogarcia03"
+            class="animate-fade-in flex items-center justify-center sm:justify-start w-full gap-1.5 text-sm font-medium text-neutral-600 dark:text-neutral-400 py-1 cursor-pointer hover:underline underline-offset-3 focus-visible:underline"
+            ><Github
+              classname="size-4"
+              fill="fill-neutral-700 dark:fill-neutral-300"
+            /> Github</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/bruno-garc%C3%ADa/"
+            class="animate-fade-in-slow flex items-center justify-center sm:justify-start w-full gap-1.5 text-sm font-medium text-neutral-600 dark:text-neutral-400 py-1 cursor-pointer hover:underline underline-offset-3 focus-visible:underline"
+            ><Linkedin classname="size-4" /> Linkedin</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <section
+      class="relative text-xs md:text-sm text-neutral-600 font-medium leading-5 max-[690px]:px-8 px-4 py-4 flex flex-col items-center justify-start gap-4"
+    >
+      <svg
+        data-direction="bottom"
+        data-variant="full-screen"
+        class="absolute pointer-events-none z-10 text-[#ddb3ff] bottom-0 w-full"
+        width="100%"
+        height="1"
+        viewBox="0 0 100 1"
+        preserveAspectRatio="none"
+        style="left:50%;transform:translateX(-50%);width:100vw"
+        ><line
+          x1="0"
+          y1="0.5"
+          x2="100"
+          y2="0.5"
+          stroke="currentColor"
+          stroke-width="1"
+          stroke-dasharray="6 6"
+          vector-effect="non-scaling-stroke"></line></svg
+      >
+      <h2
+        class="animate-fade-in-slow text-start w-full text-lg md:text-xl mb-4 text-neutral-600 dark:text-neutral-400"
+      >
+        Pensamientos
+      </h2>
+
+      {
+        posts.map((post) => {
+          const { slug, data } = post;
+          const { titulo, descripcion, imagen, indice } = data;
+
+          return (
+            <>
+              <div class="animate-reveal flex items-center gap-4 w-full border-b sm:border-0 hover:bg-neutral-200/55 dark:hover:bg-neutral-700/15 transition-colors duration-300 focus-visible:bg-neutral-200/50">
+                <img
+                  class="hidden sm:block min-w-16 min-h-16 max-w-16 max-h-16 object-cover rounded-[10px]"
+                  src={imagen}
+                  alt=""
+                />
+                <a
+                  href={`blog/${slug}`}
+                  class="group cursor-pointer gap-3 flex items-center justify-between w-full"
+                >
+                  <>
+                    <div class="flex flex-col">
+                      <>
+                        <h4 class="flex items-center gap-1 text-base font-medium text-black dark:text-white">
+                          {titulo}
+                        </h4>
+                        <p class="text-sm leading-6 text-neutral-600 dark:text-neutral-400">
+                          {descripcion}
+                        </p>
+                      </>
+                    </div>
+                    <p class="select-none font-mono z-20 bottom-3 bg-background right-3 text-sm py-0.5 px-1 animate-in fade-in slide-in-from-bottom-2 duration-300 text-neutral-600 dark:text-neutral-400">
+                      #{indice}
+                    </p>
+                    <svg
+                      class="size-4 shrink-0 text-neutral-300 dark:text-neutral-700 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 group-focus-visible:text-neutral-700 dark:group-focus-visible:text-neutral-300 group-hover:rotate-45 transition-all duration-300  group-focus-visible:rotate-45"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7 17L17 7M17 7H7M17 7V17"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </>
+                </a>
+              </div>
+            </>
+          );
+        })
+      }
+    </section>
+    <Footer />
+  </main>
+</Layout>

@@ -1,0 +1,36 @@
+---
+import "../styles/global.css";
+
+const {
+  title = "Bruno G. | Programador, Desarrollador Web e Instructor",
+  description = "Apasionado por la programación y la enseñanza, creando soluciones innovadoras. Inspirando a otros a descubrir el fascinante mundo de la tecnología.",
+} = Astro.props;
+---
+
+<html lang="es" class="">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href={"favicon.png"} />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+  </head>
+
+  <body
+    class="w-screen relative min-h-screen overflow-x-hidden dark:bg-neutral-800"
+  >
+    <slot />
+  </body>
+</html>
+
+<style>
+  html,
+  body {
+    width: 100%;
+  }
+
+  *::selection {
+    background-color: #ddb3ff;
+    color: black;
+  }
+</style>

@@ -1,0 +1,138 @@
+---
+import Project from "./ui/Project.astro";
+
+// images
+import municipalidad from "@/assets/photos/municipalidad.png";
+import elektron from "@/assets/photos/elektron-academy.png";
+import buscador from "@/assets/photos/buscador-regiones.png";
+import estoicismo from "@/assets/photos/stoa-poikile.png";
+import sidefolio from "@/assets/photos/sidefolio.png";
+import framer from "@/assets/photos/framer-demo.png";
+import soberania from "@/assets/photos/soberania.png";
+
+// icons
+import Nextjs from "@/assets/svgs/nextjs_icon_dark.svg";
+import Astro from "@/assets/svgs/astro.svg";
+import Tailwind from "@/assets/svgs/tailwindcss.svg";
+import Javascript from "@/assets/svgs/javascript.svg";
+import Typescript from "@/assets/svgs/typescript.svg";
+import Prisma from "@/assets/svgs/prisma_dark.svg";
+import Motion from "@/assets/svgs/motion_dark.svg";
+import React from "@/assets/svgs/react_dark.svg";
+import Gsap from "@/assets/svgs/gsap-icon.svg";
+---
+
+<section
+  class="relative text-xs md:text-sm text-neutral-600 font-medium leading-5 max-[690px]:px-8 px-4 py-4 flex flex-col items-center justify-start gap-8"
+>
+  <svg
+    data-direction="bottom"
+    data-variant="full-screen"
+    class="absolute pointer-events-none z-10 text-[#ddb3ff] bottom-0 w-full"
+    width="100%"
+    height="1"
+    viewBox="0 0 100 1"
+    preserveAspectRatio="none"
+    style="left:50%;transform:translateX(-50%);width:100vw"
+    ><line
+      x1="0"
+      y1="0.5"
+      x2="100"
+      y2="0.5"
+      stroke="currentColor"
+      stroke-width="1"
+      stroke-dasharray="6 6"
+      vector-effect="non-scaling-stroke"></line></svg
+  >
+  <h2
+    class="animate-reveal text-start w-full text-lg md:text-xl text-neutral-600 dark:text-neutral-400"
+  >
+    Proyectos
+  </h2>
+  <Project
+    title="Municipalidad de Alberti"
+    image={municipalidad.src}
+    description="Sitio oficial de la Municipalidad de Alberti. Información, trámites, transparencia y noticias del gobierno local."
+    repo="https://github.com/Brunogarcia03/municipal-alberti"
+    demo="https://municipalidad-alberti.vercel.app"
+    tech={[
+      { name: "Next.js", color: "bg-black", icon: Nextjs.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Motion.src },
+      { name: "GSAP", color: "bg-[#0e100f]", icon: Gsap.src },
+    ]}
+  />
+  <Project
+    title="Academía Elektron"
+    image={elektron.src}
+    description="Plataforma educativa que permite a los estudiantes personalizar su ruta de aprendizaje, seleccionando libremente los nodos/lecciones según sus intereses y objetivos."
+    repo="https://github.com/Brunogarcia03/elektron"
+    demo="https://nodo-academy.vercel.app/"
+    tech={[
+      { name: "Next.js", color: "bg-black", icon: Nextjs.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Motion.src },
+    ]}
+  />
+  <Project
+    title="Soberanía Energética"
+    image={soberania.src}
+    description="Página para ver el dinero ahorrado y sus equivalencias gracias a los paneles solares colocados en distintos puntos de la municipalidad de Alberti."
+    repo="https://github.com/Brunogarcia03/soberania-energetica"
+    demo="https://soberania-energetica.vercel.app/"
+    tech={[
+      { name: "Astro", color: "bg-[#6216a6]", icon: Astro.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Tailwind.src },
+      { name: "GSAP", color: "bg-[#0e100f]", icon: Gsap.src },
+    ]}
+  />
+  <Project
+    title="Buscador Regiones"
+    image={buscador.src}
+    description="Buscador para Banco Prot Programas que permite al usuario encontrar la región sanitaria correspondiente y solicitar sus prótesis."
+    repo="https://github.com/Brunogarcia03/db-regiones-sanitarias"
+    demo="https://www.buscadorderegionessanitarias.com.ar/"
+    tech={[
+      { name: "Next.js", color: "bg-black", icon: Nextjs.src },
+      { name: "Prisma", color: "bg-[#5a67d8]", icon: Prisma.src },
+      { name: "Typescript", color: "bg-blue-800", icon: Typescript.src },
+    ]}
+  />
+
+  <Project
+    title="Proyecto Estoico"
+    image={estoicismo.src}
+    description="Página para aprender a hacer animaciones, con un diseño limpio y animaciones; la idea es compartir frases libros y reflexiones estoicas."
+    repo="https://github.com/Brunogarcia03/website-01-yt"
+    demo="https://estoicismo-web.vercel.app/"
+    tech={[
+      { name: "Next.js", color: "bg-black", icon: Nextjs.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Tailwind.src },
+      { name: "Motion", color: "bg-[#080808]", icon: Motion.src },
+    ]}
+  />
+
+  <Project
+    title="Sidefolio"
+    image={sidefolio.src}
+    description="Diseño basado en un template de Aceternity. Interfaz, animaciones y un enfoque en el minimalismo. Jugué con la idea de hacer una empresa de Diseño Web"
+    repo="https://github.com/Brunogarcia03/Sidefolio"
+    demo="https://sidefolio-logo.vercel.app/"
+    tech={[
+      { name: "Next.js", color: "bg-black", icon: Nextjs.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Tailwind.src },
+      { name: "Motion", color: "bg-[#080808]", icon: Motion.src },
+    ]}
+  />
+
+  <Project
+    title="Framer Motion Animaciones"
+    image={framer.src}
+    description="Página de demostración y aprendizaje con animaciones avanzadas usando Framer Motion y React."
+    repo="https://github.com/Brunogarcia03/FramerMotionAnimations"
+    demo="https://framer-motion-animations-nine.vercel.app/"
+    tech={[
+      { name: "React", color: "bg-[#23272f]", icon: React.src },
+      { name: "Javascript", color: "bg-yellow-500", icon: Javascript.src },
+      { name: "Motion", color: "bg-[#080808]", icon: Motion.src },
+    ]}
+  />
+</section>

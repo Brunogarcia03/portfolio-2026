@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Title from "@/components/pages/Title.astro";
+
+import { getCollection, render } from "astro:content";
+import Footer from "@/components/Footer.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { post },
+  }));
+}
+const { post } = Astro.props;
+const { data } = post;
+
+const { Content } = await render(post);
+---
+
+<Layout>
+  <div
+    class="absolute inset-0 max-w-[650px] mx-auto max-[690px]:mx-4 pointer-events-none overflow-hidden"
+  >
+    <svg
+      data-direction="left"
+      data-variant="full-screen"
+      class="absolute pointer-events-none z-10 text-[#ddb3ff] left-0 top-0 h-full"
+      width="1"
+      height="100%"
+      viewBox="0 0 1 100"
+      preserveAspectRatio="none"
+      style="width:1px"
+      ><line
+        x1="0.5"
+        y1="0"
+        x2="0.5"
+        y2="100"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-dasharray="6 6"
+        vector-effect="non-scaling-stroke"></line></svg
+    ><svg
+      data-direction="right"
+      data-variant="full-screen"
+      class="absolute pointer-events-none z-10 text-[#ddb3ff] right-0 top-0 h-full"
+      width="1"
+      height="100%"
+      viewBox="0 0 1 100"
+      preserveAspectRatio="none"
+      style="width:1px"
+      ><line
+        x1="0.5"
+        y1="0"
+        x2="0.5"
+        y2="100"
+        stroke="currentColor"
+        stroke-width="1"
+        stroke-dasharray="6 6"
+        vector-effect="non-scaling-stroke"></line></svg
+    >
+  </div>
+  <main class="relative max-w-[650px] w-full mx-auto py-5 lg:py-[100px]">
+    <Title data={data} />
+    <article
+      class="prose dark:prose-invert max-w-none max-[690px]:px-8 px-4 py-4 w-full"
+    >
+      <Content />
+    </article><Footer />
+  </main>
+</Layout>

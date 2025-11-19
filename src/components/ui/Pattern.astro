@@ -1,0 +1,139 @@
+<div
+  class="animate-fade-in-slow flex items-center justify-center relative w-full p-2 max-[690px]:py-2"
+>
+  <svg
+    data-direction="bottom"
+    data-variant="full-screen"
+    class="absolute pointer-events-none z-10 text-[#ddb3ff] bottom-0 w-full"
+    width="100%"
+    height="1"
+    viewBox="0 0 100 1"
+    preserveAspectRatio="none"
+    style="left:50%;transform:translateX(-50%);width:100vw"
+    ><line
+      x1="0"
+      y1="0.5"
+      x2="100"
+      y2="0.5"
+      stroke="currentColor"
+      stroke-width="1"
+      stroke-dasharray="6 6"
+      vector-effect="non-scaling-stroke"></line></svg
+  >
+  <canvas
+    id="canvas"
+    class="bg-pattern bg-[#ddb3ff] w-[90%] lg:w-full h-[150px] sm:h-[200px] md:h-[300px]"
+  ></canvas>
+</div>
+
+<style>
+  .bg-pattern {
+    inset: 0;
+    display: block;
+    z-index: -1;
+    margin: 0 auto;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+</style>
+
+<script>
+  const canvas = document.getElementById("canvas") as HTMLCanvasElement;
+  const ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
+
+  const palettes = [
+    ["#FCFCFC", "#F7567C", "#FFFAE3", "#99E1D9", "#5D576B"],
+    ["#042A2B", "#5EB1BF", "#CDEDF6", "#EF7B45", "#D84727"],
+    ["#E4B363", "#E8E9EB", "#CC5A71", "#E0DFD5", "#313638"],
+    ["#222E50", "#007991", "#439A86", "#BCD8C1", "#E9D985"],
+    ["#65DEF1", "#A8DCD1", "#DCE2C8", "#F96900", "#F17F29"],
+    ["#F06449", "#EDE6E3", "#DADAD9", "#36382E", "#5BC3EB"],
+    ["#555B6E", "#89B0AE", "#BEE3DB", "#FAF9F9", "#FFD6BA"],
+    ["#FCFCFC", "#F7567C", "#FFFAE3", "#99E1D9", "#5D576B"],
+  ];
+
+  function shuffle(arr: any) {
+    return arr.slice().sort(() => Math.random() - 0.5);
+  }
+
+  function draw() {
+    const width = (canvas.width = window.innerWidth);
+    const height = (canvas.height = window.innerHeight);
+
+    let cell = 0;
+
+    if (width < 500) {
+      cell = Math.round(width / 5); // muy pocos → más nítido
+    } else if (width < 900) {
+      cell = Math.round(width / 10); // intermedio
+    } else {
+      cell = Math.round(width / 20); // desktop como antes
+    }
+
+    const cols = Math.ceil(width / cell);
+    const rows = Math.ceil(height / cell);
+
+    const colors = palettes[Math.floor(Math.random() * palettes.length)];
+
+    for (let y = 0; y < rows; y++) {
+      for (let x = 0; x < cols; x++) {
+        const c = shuffle(colors);
+        const rotate = Math.random() > 0.5;
+
+        // Fondo
+        ctx.fillStyle = c[0];
+        ctx.fillRect(x * cell, y * cell, cell, cell);
+
+        if (rotate) {
+          // arriba izquierda
+          ctx.beginPath();
+          ctx.arc(x * cell, y * cell, cell / 2, 0, Math.PI / 2);
+          ctx.closePath();
+          ctx.fillStyle = c[1];
+          ctx.fill();
+
+          // abajo derecha
+          ctx.beginPath();
+          ctx.arc(
+            x * cell + cell,
+            y * cell + cell,
+            cell / 2,
+            Math.PI,
+            1.5 * Math.PI
+          );
+          ctx.closePath();
+          ctx.fillStyle = c[2];
+          ctx.fill();
+        } else {
+          // arriba derecha
+          ctx.beginPath();
+          ctx.arc(x * cell + cell, y * cell, cell / 2, Math.PI / 2, Math.PI);
+          ctx.closePath();
+          ctx.fillStyle = c[1];
+          ctx.fill();
+
+          // abajo izquierda
+          ctx.beginPath();
+          ctx.arc(x * cell, y * cell + cell, cell / 2, 1.5 * Math.PI, 0);
+          ctx.closePath();
+          ctx.fillStyle = c[2];
+          ctx.fill();
+        }
+      }
+    }
+  }
+
+  let resizeTimeout: any = null;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(draw, 150);
+  });
+
+  draw();
+
+  setInterval(draw, 10000);
+</script>

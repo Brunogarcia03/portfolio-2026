@@ -1,0 +1,100 @@
+---
+import Github from "@/assets/Github.astro";
+import Instagram from "@/assets/Instagram.astro";
+import Linkedin from "@/assets/Linkedin.astro";
+---
+
+<div
+  class="relative w-full flex items-center justify-between max-[690px]:px-8 px-4 py-4"
+>
+  <svg
+    data-direction="top"
+    data-variant="full-screen"
+    class="absolute pointer-events-none z-10 text-[#ddb3ff] top-0 w-full"
+    width="100%"
+    height="1"
+    viewBox="0 0 100 1"
+    preserveAspectRatio="none"
+    style="left:50%;transform:translateX(-50%);width:100vw"
+    ><line
+      x1="0"
+      y1="0.5"
+      x2="100"
+      y2="0.5"
+      stroke="currentColor"
+      stroke-width="1"
+      stroke-dasharray="6 6"
+      vector-effect="non-scaling-stroke"></line></svg
+  ><svg
+    data-direction="bottom"
+    data-variant="full-screen"
+    class="absolute pointer-events-none z-10 text-[#ddb3ff] bottom-0 w-full"
+    width="100%"
+    height="1"
+    viewBox="0 0 100 1"
+    preserveAspectRatio="none"
+    style="left:50%;transform:translateX(-50%);width:100vw"
+    ><line
+      x1="0"
+      y1="0.5"
+      x2="100"
+      y2="0.5"
+      stroke="currentColor"
+      stroke-width="1"
+      stroke-dasharray="6 6"
+      vector-effect="non-scaling-stroke"></line></svg
+  ><div
+    class="flex sm:items-center sm:flex-row flex-col justify-between w-full"
+    style="opacity: 1; transform: none;"
+  >
+    <div class="flex items-center md:gap-4 gap-2">
+      <div
+        class="animate-fade-in-fast relative size-10 sm:size-[60px] bg-[#ddb3ff] flex items-center justify-center overflow-hidden rounded-[10px]"
+      >
+        <div
+          class="absolute inset-0"
+          style="background-image: url('/favicon.png'); background-position: center; background-repeat: no-repeat; background-size: cover;"
+        >
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <h1 class="animate-fade-in md:text-xl text-lg font-medium">
+          ¡Hola! Soy Bruno
+        </h1><h2
+          class="animate-fade-in md:text-base text-sm font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 flex items-center gap-1.5"
+        >
+          Programador Web
+        </h2>
+      </div>
+    </div><div
+      class="flex items-center sm:flex-col justify-around sm:justify-start gap-1 sm:mt-0 mt-4"
+    >
+      <a
+        target="_blank"
+        href="https://www.instagram.com/brugarciaok/"
+        class="flex items-center justify-center sm:justify-start w-full gap-1.5 text-sm font-medium text-neutral-600 dark:text-neutral-400 py-1 cursor-pointer hover:underline underline-offset-3 focus-visible:underline animate-fade-in-fast"
+        ><Instagram classname="size-4" /> Instagram</a
+      ><a
+        target="_blank"
+        href="https://github.com/Brunogarcia03"
+        class="flex items-center justify-center sm:justify-start w-full gap-1.5 text-sm font-medium text-neutral-600 dark:text-neutral-400 py-1 cursor-pointer hover:underline underline-offset-3 focus-visible:underline animate-fade-in"
+        ><Github
+          classname="size-4"
+          fill="fill-neutral-700 dark:fill-neutral-300"
+        /> Github</a
+      >
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/bruno-garc%C3%ADa/"
+        class="flex items-center justify-center sm:justify-start w-full gap-1.5 text-sm font-medium text-neutral-600 dark:text-neutral-400 py-1 cursor-pointer hover:underline underline-offset-3 focus-visible:underline animate-fade-in-slow"
+        ><Linkedin classname="size-4" /> Linkedin</a
+      >
+    </div>
+  </div>
+</div>
+
+<style>
+  .image-icon {
+    background-image: url("/favicon.png");
+  }
+</style>
