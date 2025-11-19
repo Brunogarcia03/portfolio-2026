@@ -3,19 +3,19 @@ const { title, image, tech = [], description, repo, demo } = Astro.props;
 ---
 
 <article
-  class="animate-reveal w-full flex flex-col space-y-8 group md:flex-row md:items-center md:gap-x-4 md:space-x-8 md:space-y-0"
+  class="animate-reveal w-full flex flex-col group md:flex-row md:items-center md:gap-x-4 md:space-x-8 space-y-4 md:space-y-0"
 >
   <!-- Imagen -->
   <div class="w-full sm:w-[80%] mx-auto md:w-1/2">
     <a href={demo} target="_blank" class="cursor-pointer">
       <div
-        class="relative flex flex-col items-center gap-8 overflow-clip rounded-xl shadow-xl transition duration-500 ease-in-out md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 dark:lg:border-gray-200 lg:hover:border-gray-700 dark:lg:hover:border-gray-300 lg:hover:bg-gray-800/50"
+        class="relative flex flex-col items-center overflow-clip rounded-xl shadow-xl transition duration-500 ease-in-out md:group-hover:-translate-y-1 md:group-hover:shadow-2xl lg:border lg:border-gray-800 dark:lg:border-gray-200 lg:hover:border-gray-700 dark:lg:hover:border-gray-300 lg:hover:bg-gray-800/50"
       >
         <img
           src={image}
           alt={title}
           loading="lazy"
-          class="object-cover object-top-left w-full h-56 transition duration-500 sm:h-full md:scale-110 md:group-hover:scale-105"
+          class="object-cover object-top-left w-full aspect-video h-40 sm:h-56 transition duration-500 md:h-full md:scale-110 md:group-hover:scale-105"
         />
       </div>
     </a>
@@ -24,7 +24,7 @@ const { title, image, tech = [], description, repo, demo } = Astro.props;
   <!-- Contenido -->
   <div class="w-full sm:w-[90%] mx-auto md:w-full">
     <div class="flex items-center justify-between">
-      <a href={demo} class="cursor-pointer">
+      <a href={demo} target="_blank" class="cursor-pointer">
         <h3
           class="font-bold text-base md:text-[18px] text-neutral-800 dark:text-neutral-300"
         >
