@@ -178,7 +178,10 @@ import Footer from "@/components/Footer.astro";
           stroke-dasharray="6 6"
           vector-effect="non-scaling-stroke"></line></svg
       >
-      <form class="flex flex-col items-center gap-y-4 max-w-lg mx-auto w-full">
+      <form
+        id="contact-form"
+        class="flex flex-col items-center gap-y-4 max-w-lg mx-auto w-full"
+      >
         <div class="relative z-0 w-full group">
           <input
             type="email"
@@ -233,8 +236,66 @@ import Footer from "@/components/Footer.astro";
         >
           Enviar mensaje
         </button>
+        <div id="form-status" class="hidden text-sm h-6 flex items-center">
+        </div>
       </form>
     </div>
     <Footer />
   </main>
 </Layout>
+
+<script is:inline>
+  const form = document.getElementById("contact-form");
+  const status = document.getElementById("form-status");
+
+  const setStatus = (message, type) => {
+    // type: "loading" | "success" | "error"
+    const colors = {
+      loading: "text-neutral-500 dark:text-neutral-400",
+      success: "text-green-600 dark:text-green-400",
+      error: "text-red-600 dark:text-red-400",
+    };
+
+    status.className = `block text-sm h-6 flex items-center opacity-0 transition-opacity duration-300 ${colors[type]}`;
+    status.textContent = message;
+
+    requestAnimationFrame(() => {
+      status.classList.add("opacity-100");
+    });
+  };
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+
+    setStatus("Enviando...", "loading");
+
+    const payload = {
+      email: form.floating_email.value,
+      asunto: form.floating_asunto.value,
+      mensaje: form.floating_message.value,
+    };
+
+    try {
+      const res = await fetch("/api/send", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        setStatus("Mensaje enviado correctamente ✔️", "success");
+        form.reset();
+      } else {
+        setStatus("Error al enviar el mensaje ❌", "error");
+        console.error(data);
+      }
+    } catch (err) {
+      setStatus("Error de conexión ❌", "error");
+      console.error(err);
+    }
+  });
+</script>
