@@ -26,7 +26,7 @@ const { Content } = await render(post);
     <svg
       data-direction="left"
       data-variant="full-screen"
-      class="absolute pointer-events-none z-10 text-[#ddb3ff] left-0 top-0 h-full"
+      class="absolute pointer-events-none z-10 text-[#ddb3ff] dark:text-neutral-600 left-0 top-0 h-full"
       width="1"
       height="100%"
       viewBox="0 0 1 100"
@@ -44,7 +44,7 @@ const { Content } = await render(post);
     ><svg
       data-direction="right"
       data-variant="full-screen"
-      class="absolute pointer-events-none z-10 text-[#ddb3ff] right-0 top-0 h-full"
+      class="absolute pointer-events-none z-10 text-[#ddb3ff] dark:text-neutral-600 right-0 top-0 h-full"
       width="1"
       height="100%"
       viewBox="0 0 1 100"
@@ -67,6 +67,7 @@ const { Content } = await render(post);
       class="prose dark:prose-invert max-w-none max-[690px]:px-8 px-4 py-4 w-full"
     >
       <Content />
-    </article><Footer />
+    </article>
+    <Footer />
   </main>
 </Layout>
