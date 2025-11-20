@@ -201,13 +201,15 @@ const posts = (await getCollection("blog")).sort(
       </h2>
 
       {
-        posts.map((post) => {
+        posts.map((post, index) => {
           const { slug, data } = post;
           const { titulo, descripcion, imagen, indice } = data;
 
           return (
             <>
-              <div class="animate-reveal flex items-center justify-between gap-x-4 w-full border-b sm:border-0 hover:bg-neutral-200/55 dark:hover:bg-neutral-700/15 transition-colors duration-300 focus-visible:bg-neutral-200/50">
+              <div
+                class={`${index <= 5 ? "animate-fade-in-slow" : "animate-reveal"} flex items-center justify-between gap-x-4 w-full border-b sm:border-0 hover:bg-neutral-200/55 dark:hover:bg-neutral-700/15 transition-colors duration-300 focus-visible:bg-neutral-200/50`}
+              >
                 <img
                   class="hidden sm:block min-w-16 min-h-16 max-w-16 max-h-16 object-cover rounded-[10px]"
                   src={imagen}
@@ -218,7 +220,7 @@ const posts = (await getCollection("blog")).sort(
                   class="group cursor-pointer gap-x-3 flex flex-col sm:flex-row items-center justify-between w-full"
                 >
                   <>
-                    <div class="flex flex-col w-full sm:w-2/3">
+                    <div class="flex flex-col w-full">
                       <>
                         <h4 class="flex items-center gap-1 text-base font-medium text-neutral-800 dark:text-neutral-300">
                           {titulo}

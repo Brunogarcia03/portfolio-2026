@@ -62,8 +62,15 @@ Vuelve al protagonista escribiendo.
 >
 > Deseo que todos mejoremos juntos.
 
-Saca la hoja de la máquina y la firma. Busca entre el desorden sin encontrarla una estampilla del valor de $3000 específicamente la de **“aguará guazú”** una especie autóctona argentina. En idioma guaraní, "aguará guazú" significa **"zorro grande"**, \*\*\*\*el aguará guazú no es peligroso para los humanos ni para el ganado doméstico; es un animal tímido y exclusivamente carnívoro que se alimenta de presas pequeñas como roedores y anfibios, y en general es huidizo y evita el contacto con asentamientos humanos.
+Saca la hoja de la máquina y la firma. Tantea alrededor del escritorio buscando la estampilla que falta: la de tres mil pesos, la del aguará guazú, justo esa, la que había guardado para enviar la carta final. Revuelve entre papeles, sobres, recibos arrugados, notas que ya no recuerda haber escrito. Mueve libros, abre cajones, levanta una pila de diarios viejos. Nada. Específicamente la de “aguará guazú” una especie autóctona argentina. —En idioma guaraní significa "zorro grande", el aguará guazú no es peligroso para los humanos ni para el ganado doméstico; es un animal tímido y exclusivamente carnívoro que se alimenta de presas pequeñas como roedores y anfibios, y en general es huidizo y evita el contacto con asentamientos humanos.—
 
-Se levanta sin encontrar la dichosa estampilla. Dirigiéndose a la habitación con puerta roja. La cámara acompaña al escritor, abre la puerta con un leve cuidado, un golpe seco en el silencio. continua unos metros en oscuridad hasta que prende un pequeño velador que ilumina levemente la sala vislumbrando la silueta de una mujer mañatada de rodillas atada por una cuerda sus dos manos al techo, sus dos piernas a un caño que sobre sale de la pared y la boca tapada por una mordaza. El escritor se acerca acariciando la cara de la mujer para buscar detrás de ella en una lata estampillas encontrando la dichosa estampilla del animal. Plano detalle de la estampilla mientras se oyen quejidos de angustia y dolor.
+Se levanta sin encontrar la dichosa estampilla dirigiéndose a la habitación con puerta roja, el sonido de sus pasos resuena sobre el parquet. Abre la puerta con leve cuidado, un golpe seco, al fondo, en el silencio. Continúa unos metros en oscuridad hasta que prende un pequeño velador que ilumina levemente la sala vislumbrando la silueta de una mujer. Arrodillada. Las muñecas atadas por cuerdas gruesas que suben al techo, Los tobillos sujetos por otra cuerda al caño oxidado que sale de la pared. La boca inmovilizada por una mordaza negra.
 
+El escritor se acerca. Acaricia su mejilla. Busca detrás de ella en una lata con la pintura descascarada. Dentro, revueltas entre monedas extranjeras, estampillas antiguas, boletos de tren y pequeños objetos inútiles, allí está: la estampilla del aguará guazú.
+
+La toma entre el índice y el pulgar.
+
+**PLANO DETALLE.**
+
+Se fija en la estampilla, los quejidos —ahogados, rotos, vibrantes de angustia— invaden el silencio. Le tiemblan las rodillas; la cuerda se tensa y gime. El escritor sonríe, apenas, la presencia indomable del ladrido.
 <video src="/blog/aguara-aguzu.mp4" width="320" height="240" controls></video>
