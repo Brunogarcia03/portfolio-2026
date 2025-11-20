@@ -64,10 +64,30 @@ const { Content } = await render(post);
   <main class="relative max-w-[650px] w-full mx-auto py-5 lg:py-[100px]">
     <Title data={data} />
     <article
-      class="prose dark:prose-invert max-w-none max-[690px]:px-8 px-4 py-4 w-full"
+      class="relative prose dark:prose-invert max-w-none max-[690px]:px-8 px-4 py-4 w-full prose-video:mx-auto prose-video:rounded-[10px] prose-video:w-full prose-hr:my-2 prose-blockquote:text-neutral-600 dark:prose-blockquote:text-neutral-400"
     >
       <Content />
+      <svg
+        data-direction="bottom"
+        data-variant="full-screen"
+        class="absolute pointer-events-none z-10 text-[#ddb3ff] dark:text-neutral-600 bottom-0 w-full"
+        width="100%"
+        height="1"
+        viewBox="0 0 100 1"
+        preserveAspectRatio="none"
+        style="left:50%;transform:translateX(-50%);width:100vw"
+        ><line
+          x1="0"
+          y1="0.5"
+          x2="100"
+          y2="0.5"
+          stroke="currentColor"
+          stroke-width="1"
+          stroke-dasharray="6 6"
+          vector-effect="non-scaling-stroke"></line></svg
+      >
     </article>
+
     <Footer />
   </main>
 </Layout>
