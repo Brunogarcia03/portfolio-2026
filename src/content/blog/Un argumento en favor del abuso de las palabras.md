@@ -66,4 +66,4 @@ Saca la hoja de la máquina y la firma. Busca entre el desorden sin encontrarla 
 
 Se levanta sin encontrar la dichosa estampilla. Dirigiéndose a la habitación con puerta roja. La cámara acompaña al escritor, abre la puerta con un leve cuidado, un golpe seco en el silencio. continua unos metros en oscuridad hasta que prende un pequeño velador que ilumina levemente la sala vislumbrando la silueta de una mujer mañatada de rodillas atada por una cuerda sus dos manos al techo, sus dos piernas a un caño que sobre sale de la pared y la boca tapada por una mordaza. El escritor se acerca acariciando la cara de la mujer para buscar detrás de ella en una lata estampillas encontrando la dichosa estampilla del animal. Plano detalle de la estampilla mientras se oyen quejidos de angustia y dolor.
 
-<video src="/src/assets/photos/blog/aguará-aguzú.mp4" width="320" height="240" controls></video>
+<video src="/public/blog/aguará-aguzú.mp4" width="320" height="240" controls></video>
