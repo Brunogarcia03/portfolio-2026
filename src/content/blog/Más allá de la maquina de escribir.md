@@ -2,7 +2,7 @@
 titulo: "Más allá de la maquina de escribir"
 creado: "4 de noviembre de 2025"
 descripcion: "Ha intentado, sin ningún grado de éxito, la armonía de los versos."
-imagen: "https://images.unsplash.com/photo-1504691342899-4d92b50853e1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
+imagen: "https://images.unsplash.com/photo-1631297203225-16d8f3084dbc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 indice: 1
 ---
 
@@ -44,8 +44,6 @@ Pero falló, falló de verdad; nunca supo llegar a ser aquello que creía capaz 
 
 — Ciertamente se puede concluir algo como eso, alguna vez le enseñe que el prosista tiene la tarea de mantener sus frases amplias, rítmicas y agradables al oído. y ¿No cree usted que ha fracasado en las tres?
 
-**INT. CASA - DÍA**
-
 > Lanzó la verdad despiadada sobre mi mundo resquebrajado. Coincido plenamente con su prédica: El prosista debe mantener sus frases amplias, rítmicas y agradables al oído, tiene la tarea de combinar con maestría los elementos esenciales del lenguaje, la de entretejer su argumentación en una textura de frases, la de elegir las palabras adecuadas, explícitas y comunicativas.
 >
 > Alguna vez ha dicho que la complejidad de un pasaje perfectamente resuelto le proporcionaba un placer pletórico, déjeme decirle que a mi también.
@@ -54,8 +52,6 @@ Pero falló, falló de verdad; nunca supo llegar a ser aquello que creía capaz 
 >
 > Entiendo yo que no merezco ser parte de este arte, ni de ningún otro arte. Mis letras han quedado raquíticas, por eso, estás serán las últimas palabras que escribiré: grazie maestro, discúlpeme por ocupar un lugar que no me corresponde y por la descortesía de mancillar los versos que tu tan felizmente, durante tantos años, le devolviste al idioma español. Idioma que ha engendrado a los mejores escritores del mundo, de nuevo, pido perdón porque a pesar del amplio lenguaje, pocas han sido mis páginas validas.
 >
-> Muchas gracias, ha sido un viaje rápido.
-
-Firmado como: Pedro Mestral
+> Muchas gracias, ha sido un viaje rápido.<br/> Firmado como: Pablo Mestral
 
 Unas horas después quitó la goma del lapíz, dejando al descubierto el pequeño cilindro de metal dorado, caminó hacia la bañera llena con dos tercios de agua tibia, se sumergió, y finalmente, deslizó el extremo metálico suave por sus venas. Ecce Homo, pronuncia la pared, a la muchedumbre que se agolpa en la casa contemplando el acontecimiento fatal de aquel que consideran traidor.

@@ -20,9 +20,7 @@ Máquina de escribir en primer plano. Lluvia, un departamento antiguo en Buenos 
 >
 > Permítame, antes de aceptar mi condición de monstruo, defender mi humanidad.
 
-La lluvia se cuela por la ventana humedeciendo el marco de madera. El escritor se levanta, con leve molestia, y la cierra.
-
-Pilas de libros, botellas vacías, periódicos se muestran en escena, una radio encendida con noticias sobre las elecciones españolas.
+La lluvia se cuela por la ventana humedeciendo el marco de madera. El escritor se levanta, con leve molestia, y la cierra. Pilas de libros, botellas vacías, periódicos se muestran en escena, una radio encendida con noticias sobre las elecciones españolas.
 
 La carta se transforma en _un monólogo-ensayo_, con un montaje paralelo entre el escritor y su lector.
 
@@ -42,7 +40,7 @@ Toma un sorbo de té y rota, renovando la hoja.
 
 Continúa escribiendo.
 
-> Dicho todo esto, me defiendo ante la más terrible de las prohibiciones humanas que es la censura, la cual es la mayor herramienta de quienes necesitan ocultar la realidad, tanto a sí mismos como a los demás. Su miedo se debe únicamente a su incapacidad para afrontar la realidad y lo que ella nos depara día a día, No puedo odiarlos por tal actitud, ya que solo siento una enorme tristeza; mi diagnóstico es que en algún momento de su crianza han sido sobreprotegidos de la realidad mutable de la vida, aprendiendo en este proceso solo una dirección cuando existen muchas.
+> Dicho todo esto, me defiendo ante la más terrible de las prohibiciones humanas que es la censura, la cual es la mayor herramienta de quienes necesitan ocultar la realidad, tanto a sí mismos como a los demás. Su miedo se debe únicamente a su incapacidad para afrontar la realidad y lo que ella nos depara día a día, No puedo odiarlos por tal actitud, ya que solo siento una enorme tristeza; mi diagnóstico es que en algún momento de su crianza han sido sobreprotegidos de la realidad mutable de la vida, aprendiendo en este proceso solo una dirección de pensamiento cuando existen muchas.
 
 Se escucha al fondo un ruido estridente como si se hubiera caído una pila de platos. El protagonista echa un corto vistazo y vuelva a la máquina.
 
@@ -52,7 +50,7 @@ continúa escribiendo.
 
 Continua narrando la carta el protagonista, pero vemos al lector leerla.
 
-> Pero sí me duele que censuren el libro de otro escritor, puesto que ese libro podría ser un gran libro, y hay pocos de esos, y a lo largo de los siglos ese tipo de libro se ha convertido a menudo en un clásico, y lo que antes se consideraba impactante e inmoral ahora es lectura obligatoria en muchas de nuestras universidades. No digo que mi libro sea uno de ellos, pero sí digo que, en nuestra época, en este momento de la historia, cualquier momento puede ser el último para muchos de nosotros, por tanto, es sumamente irritante e increíblemente triste que aún tengamos entre nosotros a la gente pequeña y amargada, a los cazadores de brujas y a los que declaman contra la realidad.
+> Sí me duele que censuren el libro de otro escritor, puesto que ese libro podría ser un gran libro, y hay pocos de esos, y a lo largo de los siglos ese tipo de libro se ha convertido a menudo en un clásico, y lo que antes se consideraba impactante e inmoral ahora es lectura obligatoria en muchas de nuestras universidades. No digo que mi libro sea uno de ellos, pero sí digo que, en nuestra época, en este momento de la historia, cualquier momento puede ser el último para muchos de nosotros, por tanto, es sumamente irritante e increíblemente triste que aún tengamos entre nosotros a la gente pequeña y amargada, a los cazadores de brujas y a los que declaman contra la realidad.
 
 Vuelve al protagonista escribiendo.
 
