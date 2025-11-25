@@ -67,6 +67,57 @@ const { Content } = await render(post);
       class="relative prose dark:prose-invert max-w-none max-[690px]:px-8 px-4 py-4 w-full prose-video:mx-auto prose-video:rounded-[10px] prose-video:w-full prose-hr:my-2 prose-blockquote:text-neutral-600 dark:prose-blockquote:text-neutral-400"
     >
       <Content />
+
+      <div
+        class="flex items-center justify-between w-full font-normal gap-3 mb-4"
+      >
+        {
+          data.prev && (
+            <a
+              href={`/blog/${data.prev}`}
+              class="group flex items-center justify-center gap-1 select-none font-mono z-20 text-sm py-1.5 px-1 w-full sm:w-1/3 bg-neutral-600 dark:bg-neutral-400 text-neutral-200 dark:text-neutral-800 no-underline hover:underline rounded-[10px]"
+            >
+              Anterior
+              <svg
+                class="size-3 shrink-0 text-current -rotate-90 transition-all duration-300 group-hover:-rotate-135 dark:group-hover:text-neutral-700 group-hover:text-neutral-300"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M7 17L17 7M17 7H7M17 7V17"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          )
+        }
+        {
+          data.next && (
+            <a
+              href={`/blog/${data.next}`}
+              class="group flex items-center justify-center gap-1 select-none font-mono z-20 text-sm py-1.5 px-1 w-full sm:w-1/3 bg-neutral-600 dark:bg-neutral-400 text-neutral-200 dark:text-neutral-800 no-underline hover:underline rounded-[10px]"
+            >
+              Siguiente
+              <svg
+                class="size-3 shrink-0 text-current transition-all duration-300 group-hover:rotate-45 dark:group-hover:text-neutral-700 group-hover:text-neutral-300"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M7 17L17 7M17 7H7M17 7V17"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          )
+        }
+      </div>
       <svg
         data-direction="bottom"
         data-variant="full-screen"

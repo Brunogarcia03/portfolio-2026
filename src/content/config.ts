@@ -7,6 +7,8 @@ const blog = defineCollection({
     descripcion: z.string(),
     imagen: z.string().url(),
     indice: z.number(),
+    next: z.string().optional(),
+    prev: z.string().optional(),
   }),
 });
 

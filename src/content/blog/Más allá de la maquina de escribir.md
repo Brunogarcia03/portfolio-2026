@@ -4,6 +4,8 @@ creado: "4 de noviembre de 2025"
 descripcion: "Ha intentado, sin ningún grado de éxito, la armonía de los versos."
 imagen: "https://images.unsplash.com/photo-1631297203225-16d8f3084dbc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 indice: 1
+next: "la-refutación-de-una-leyenda-de-amor"
+prev: "prologo"
 ---
 
 Más allá del balcón y, con buena disposición céntrica, de la maquina de escribir, la columna colosal con relieves es un testigo más de esta escena olvidable, Ecce Homo, pronuncia la pared a la muchedumbre que se agolpa en la calle contemplando el acontecimiento fatal de aquel que consideran traidor.
