@@ -22,7 +22,7 @@ _Por obra indescifrable de un decreto divino._
 
 Se deleitaba con Shakespeare:
 
-**Enobarbus:** _I will tell you._
+_I will tell you._
 _The barge she sat in, like a burnish'd throne,_
 _Burned on the water: the poop was beaten gold;_
 _Purple the sails, and so perfumed that_
@@ -36,15 +36,11 @@ Lo intentó, lo intento de verdad; forjar esos versos que lindan con las afinida
 
 Pero falló, falló de verdad; nunca supo llegar a ser aquello que creía capaz de ser: un buen escritor. Aun que, paradójicamente, descreyó toda su vida del fracaso y del éxito, sabía que era un fracasado. Los antiguos textos de los cuales él tergiversó y bellos poemas que secuestro son testigos de su inutilidad literaria, de su infinito palabrerío y su siempre insistente pedantería.
 
-**INT. SET DE GRABACIÓN - NOCHE**
-
-— ¿Qué opina usted, si me lo permite, de su ex-alumno? Quien ha tenido palabras bastante provocadoras a decir verdad.
-
-— Bueno, creo… es fácilmente rechazable su prosa, sucede que he leído sus cuentos. Creo que con eso lo justifica.
-
-— ¿Cree qué ha fracasado como maestro?
-
-— Ciertamente se puede concluir algo como eso, alguna vez le enseñe que el prosista tiene la tarea de mantener sus frases amplias, rítmicas y agradables al oído. y ¿No cree usted que ha fracasado en las tres?
+La entrevista ocurrió una noche cualquiera, bajo las luces de un pequeño estudio de un programa cultural. El viejo profesor, Carlos Bernini, estaba sentado frente a una mesa de madera que temblaba con cada movimiento del entrevistador.
+—Profesor —dijo el conductor— ¿Qué opina usted, si me lo permite, de su ex-alumno? Quien ha tenido palabras bastante provocadoras a decir verdad.
+—Bueno… creo que su prosa es fácilmente rechazable, sucede que he leído sus cuentos. Creo que con eso alcanza para justificarme.
+—¿Cree qué ha fracasado como maestro?
+—Diría más —respondió el profesor, cruzando las manos sobre la mesa—. Alguna vez le enseñe que el prosista tiene la tarea de mantener sus frases amplias, rítmicas y agradables al oído. ¿No cree usted que ha fracasado en las tres?
 
 > Lanzó la verdad despiadada sobre mi mundo resquebrajado. Coincido plenamente con su prédica: El prosista debe mantener sus frases amplias, rítmicas y agradables al oído, tiene la tarea de combinar con maestría los elementos esenciales del lenguaje, la de entretejer su argumentación en una textura de frases, la de elegir las palabras adecuadas, explícitas y comunicativas.
 >
