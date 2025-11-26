@@ -4,6 +4,7 @@ creado: "22 de octubre de 2025"
 descripcion: "vanitas vanitatum et omnia vanitas, es decir, “vanidad de vanidades, todo es vanidad”."
 imagen: "https://images.unsplash.com/photo-1742640402546-89a49cf459fd?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 indice: 8
+next: "relax--this-wont-hurt"
 prev: "un-argumento-en-favor-del-abuso-de-las-palabras"
 ---
 
