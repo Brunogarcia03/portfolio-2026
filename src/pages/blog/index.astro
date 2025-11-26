@@ -208,7 +208,7 @@ const posts = (await getCollection("blog")).sort(
           return (
             <>
               <div
-                class={`${index <= 5 ? "animate-fade-in-slow" : "animate-reveal"} flex items-center justify-between gap-x-4 w-full border-b sm:border-0 hover:bg-neutral-200/55 dark:hover:bg-neutral-700/15 transition-colors duration-300 focus-visible:bg-neutral-200/50`}
+                class={`${index <= 4 ? "animate-fade-in-slow" : "animate-reveal"} flex items-center justify-between gap-x-4 w-full border-b sm:border-0 hover:bg-neutral-200/55 dark:hover:bg-neutral-700/15 transition-colors duration-300 focus-visible:bg-neutral-200/50`}
               >
                 <img
                   class="hidden sm:block min-w-16 min-h-16 max-w-16 max-h-16 object-cover rounded-[10px]"

@@ -3,9 +3,9 @@ titulo: "La refutación de una leyenda de amor"
 creado: "30 de octubre de 2025"
 descripcion: "Disculparé a mi yo presente quien será mi yo pasado en el futuro"
 imagen: "https://images.unsplash.com/photo-1518621736915-f3b1c41bfd00?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
-indice: 2
-next: "principium-causalitatis"
-prev: "más-allá-de-la-maquina-de-escribir"
+indice: 4
+next: "recuento-de-cadáveres"
+prev: "principium-causalitatis"
 ---
 
 Disculparé a mi yo presente quien será mi yo pasado en el futuro el cual, rememorando mi actual vida, verá un hombre tímido, inseguro, inmóvil ante la verdad de la muerte, tan próxima, tan cercana, tan indudable para aquel yo.

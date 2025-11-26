@@ -3,8 +3,9 @@ titulo: "Un argumento en favor del abuso de las palabras"
 creado: "6 de octubre de 2025"
 descripcion: "Permítame, antes de aceptar mi condición de monstruo, defender mi humanidad."
 imagen: "https://images.unsplash.com/photo-1634141737318-aabdc6d0f8f1?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
-indice: 5
-prev: "recuento-de-cadáveres"
+indice: 7
+next: "finis-gloriae-mundi"
+prev: "piensa-en-la-nada"
 ---
 
 **INT. DEPARTAMENTO - ATARDECER**

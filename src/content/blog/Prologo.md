@@ -2,7 +2,7 @@
 titulo: "Prólogo"
 creado: "24 de noviembre de 2025"
 descripcion: "Supongo que exhibir esto es, en cierta medida, un ejercicio de autoestima"
-imagen: "https://www.notion.so/images/page-cover/solid_beige.png"
+imagen: "https://www.notion.so/images/page-cover/met_william_morris_1875.jpg"
 indice: 0
 next: "más-allá-de-la-maquina-de-escribir"
 ---

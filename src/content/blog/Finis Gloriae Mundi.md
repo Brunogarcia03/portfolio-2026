@@ -1,0 +1,16 @@
+---
+titulo: "Finis Gloriae Mundi"
+creado: "22 de octubre de 2025"
+descripcion: "vanitas vanitatum et omnia vanitas, es decir, “vanidad de vanidades, todo es vanidad”."
+imagen: "https://images.unsplash.com/photo-1742640402546-89a49cf459fd?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
+indice: 8
+prev: "un-argumento-en-favor-del-abuso-de-las-palabras"
+---
+
+**_Vanitas,_** género artístico que resalta la vacuidad de la vida y la relevancia de la muerte como fin de los placeres mundanos.
+
+![](https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNjRlYjBkMjRmMDFiNS5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.aesHhOpXM_uk4mXK3gMhmvVkk5nCQ1Wx7aSIy0LHJk0.webp)
+
+La vida dura poco, es muy frágil, se va flotando lentamente y en su resbaladiza forma declama la universalidad de la muerte para todo ser humano, de cualquier época, de cualquier clase social. He aquí la paradoja: poseer conciencia suficiente para entender la muerte y, al mismo tiempo, la ignorancia de perder la vida con placeres mundanos, con la distracción en los espejismos del oro, con los falsos aplausos, con las telas, las cifras, elogios, con los nombres que el viento borrará. ¿Para qué tanta conciencia si todo termina alimentando a los gusanos?
+
+*"Los orígenes de la idea de vanitas se encuentran en el versículo 1,2 del Eclesiastés, **vanitas vanitatum et omnia vanitas**, es decir, “vanidad de vanidades, todo es vanidad”. A raíz de esta contundente sentencia se configura una ideología referida a la vacuidad de los placeres mundanos y a la brevedad de la vida."* (Iglecias Benedicto, pág. 11).

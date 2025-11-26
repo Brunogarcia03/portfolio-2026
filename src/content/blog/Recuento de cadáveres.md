@@ -3,9 +3,9 @@ titulo: "Recuento de cadáveres"
 creado: "16 de noviembre de 2025"
 descripcion: "Juzgar si la vida merece la pena ser vivida es contestar, tal vez, la única pregunta que realmente importa"
 imagen: "https://images.unsplash.com/photo-1529327307393-ef9742c1ba93?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
-indice: 4
-next: "un-argumento-en-favor-del-abuso-de-las-palabras"
-prev: "principium-causalitatis"
+indice: 5
+next: "piensa-en-la-nada"
+prev: "la-refutación-de-una-leyenda-de-amor"
 ---
 
 Estos textos legan un recuento de cadáveres; conviene tomarlos con la misma seriedad con la que uno debe tomarse su propia muerte, el amor fallido, la existencia o el legado: es decir, de un modo absurdo. Si yo, hombre existente, camino, respiro y aún tengo la capacidad de amar, entonces ella —la muerte, intangible— no existe. Si ella existe, yo, hombre mortal, no existo. «Solo la vida existe. El espacio y el tiempo son normas suyas, son instrumentos mágicos del alma, y cuando ésta se apague, se apagarán con ella el espacio y el tiempo.» Tal es la primitiva ecuación que rige nuestras vigilias.
