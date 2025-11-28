@@ -10,7 +10,8 @@ prev: "un-argumento-en-favor-del-abuso-de-las-palabras"
 
 **_Vanitas,_** género artístico que resalta la vacuidad de la vida y la relevancia de la muerte como fin de los placeres mundanos.
 
-![](https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNjRlYjBkMjRmMDFiNS5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.aesHhOpXM_uk4mXK3gMhmvVkk5nCQ1Wx7aSIy0LHJk0.webp)
+<a target="_blank" href="https://historia-arte.com/obras/el-tiempo-y-las-viejas">![](https://historia-arte.com/_/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbSI6WyJcL2FydHdvcmtcL2ltYWdlRmlsZVwvNjRlYjBkMjRmMDFiNS5qcGciLCJyZXNpemUsMTUwMHxmb3JtYXQsd2VicCJdfQ.aesHhOpXM_uk4mXK3gMhmvVkk5nCQ1Wx7aSIy0LHJk0.webp)
+</a>
 
 La vida dura poco, es muy frágil, se va flotando lentamente y en su resbaladiza forma declama la universalidad de la muerte para todo ser humano, de cualquier época, de cualquier clase social. He aquí la paradoja: poseer conciencia suficiente para entender la muerte y, al mismo tiempo, la ignorancia de perder la vida con placeres mundanos, con la distracción en los espejismos del oro, con los falsos aplausos, con las telas, las cifras, elogios, con los nombres que el viento borrará. ¿Para qué tanta conciencia si todo termina alimentando a los gusanos?
 

@@ -10,19 +10,19 @@ prev: "piensa-en-la-nada"
 
 **INT. DEPARTAMENTO - ATARDECER**
 
-Máquina de escribir en primer plano. Lluvia, un departamento antiguo en Buenos Aires. una hoja puesta iniciando lo que sería una carta (un anciano la recita):
+Máquina de escribir en primer plano. Lluvia, un departamento antiguo en Los Angeles. una hoja puesta iniciando lo que sería una carta (un anciano la recita):
 
-> Buenos Aires, invierno de 2023.
+> Buenos Aires, invierno de 1983.
 >
-> Estimado señor Esteban Ramírez, periodista del diario _El País_ de España:
+> Estimado señor Hans van den Broek, Noordhollands Dagblad de Paises Bajos:
 >
 > ---
 >
-> Le agradezco profundamente que me haya informado de que mis libros han sido censurados en varias bibliotecas de su país por su tono cruel, discriminatorio, machista y sádico, por describir escenas donde las mujeres aparecen sometidas frente a los hombres, o por mi modo de mirar la carne sin pudor.
+> Le agradezco profundamente que me haya informado que mis libros han sido censurados en varias bibliotecas de su país por su tono cruel, discriminatorio, machista y sádico, por describir escenas donde el asesinato es rutinario, las mujeres aparecen sometidas, los hombres guerreando o por mi modo de mirar la carne sin pudor.
 >
 > Permítame, antes de aceptar mi condición de monstruo, defender mi humanidad.
 
-La lluvia se cuela por la ventana humedeciendo el marco de madera. El escritor se levanta, con leve molestia, y la cierra. Pilas de libros, botellas vacías, periódicos se muestran en escena, una radio encendida con noticias sobre las elecciones españolas.
+La lluvia se cuela por la ventana humedeciendo el marco de madera. El escritor se levanta, con leve molestia, y la cierra. Pilas de libros, botellas vacías, periódicos se muestran en escena, una radio encendida con noticias sobre una gran helada en la costa este norteamericana.
 
 La carta se transforma en _un monólogo-ensayo_, con un montaje paralelo entre el escritor y su lector.
 
