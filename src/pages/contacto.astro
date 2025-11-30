@@ -94,11 +94,13 @@ import Footer from "@/components/Footer.astro";
           vector-effect="non-scaling-stroke"></line></svg
       >
       <div
-        class="flex flex-col sm:flex-row items-center justify-between gap-y-4 w-full"
+        class="flex flex-col sm:flex-row items-center justify-between gap-y-4 w-full group"
       >
-        <div class="flex items-center md:gap-4 gap-2">
+        <div
+          class="flex items-center justify-center sm:justify-start md:gap-4 gap-2 w-full"
+        >
           <div
-            class="animate-fade-in-fast relative size-[60px] md:size-20 bg-[#ddb3ff] dark:bg-neutral-600 flex items-center justify-center overflow-hidden rounded-[10px]"
+            class="animate-fade-in-fast relative hidden sm:flex size-[60px] md:size-20 bg-[#ddb3ff] dark:bg-neutral-600 items-center justify-center overflow-hidden rounded-[10px]"
           >
             <img
               class="absolute w-full h-full object-fill scale-110"
@@ -108,11 +110,39 @@ import Footer from "@/components/Footer.astro";
           </div>
           <div class="flex flex-col">
             <h1
-              class="md:text-xl text-lg font-medium animate-fade-in text-neutral-800 dark:text-neutral-300"
+              class="md:text-xl text-lg font-medium animate-fade-in-fast text-neutral-800 dark:text-neutral-300"
             >
               <span class="text-slate-600 dark:text-slate-400">200</span> ¡Gracias
               por escribir!
             </h1><a
+              href="https://docs.google.com/document/d/1wy3wBpAC25UEH8HzhZEyGYnJG-3shSRh/edit?usp=sharing&ouid=116509917676455272710&rtpof=true&sd=true"
+              target="_blank"
+              class="flex items-center animate-fade-in"
+              ><span class="text-neutral-700 dark:text-neutral-300 mr-0.5"
+                >Curriculum Vitae</span
+              ><svg
+                class="size-4 shrink-0 dark:text-neutral-300 sm:text-neutral-300 text-neutral-700 sm:dark:text-neutral-700 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 rotate-45 sm:rotate-0 group-focus-visible:text-neutral-700 dark:group-focus-visible:text-neutral-300 sm:group-hover:rotate-45 transition-all duration-300 sm:group-focus-visible:rotate-45"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                ><path
+                  d="M7 17L17 7M17 7H7M17 7V17"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"></path></svg
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                width="24"
+                height="24"
+                style="opacity:1;"
+                class="size-4 sm:size-0 group-hover:size-4 fill-neutral-700 dark:fill-neutral-300 transition-all duration-300 ease-in-out"
+                ><path
+                  d="M249.18 328.324c-9.788 15.384-19.179 30.434-40.222 45.055c-11.256 7.89-37.164 23.306-73.99 23.306C64.709 396.685 8 345.605 8 255.801c0-78.486 53.345-140.486 128.466-140.486c30.434 0 57.474 10.521 77.387 26.304c18.414 14.65 27.038 29.304 34.563 42.456l-52.58 26.273c-3.762-8.626-8.29-17.649-19.913-27.406c-12.784-10.155-25.54-13.152-36.46-13.152c-42.821 0-65.364 39.825-65.364 84.145c0 58.238 29.7 87.143 65.364 87.143c34.563 0 48.48-24.042 57.474-39.426zm184.194-204.75H504l-92.037 265.22h-67.597l-90.904-265.22h70.625l54.843 188.6z"
+                ></path></svg
+              ></a
+            ><a
               href="/"
               class="animate-fade-in-slow group md:text-base text-sm font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 flex items-center gap-1.5"
             >
@@ -131,7 +161,7 @@ import Footer from "@/components/Footer.astro";
             </a>
           </div>
         </div><div
-          class="flex items-center sm:flex-col justify-around sm:justify-start gap-2 sm:gap-1 sm:mt-0 mt-4"
+          class="flex items-center sm:flex-col justify-around sm:justify-start w-full sm:w-auto gap-2 sm:gap-1 sm:mt-0 mt-4"
         >
           <a
             target="_blank"

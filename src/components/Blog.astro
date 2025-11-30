@@ -35,15 +35,25 @@ const posts = await getCollection("blog");
     Pensamientos
   </h2>
   {
-    posts.slice(0, 3).map((post) => {
-      const { slug, data } = post;
-      const { titulo, descripcion } = data;
+    posts
+      .sort((a, b) => a.data.indice - b.data.indice)
+      .slice(0, 5)
+      .map((post) => {
+        const { slug, data } = post;
+        const { titulo, descripcion, imagen } = data;
 
-      return (
-        <Link href={`blog/${slug}`} title={titulo} description={descripcion} />
-      );
-    })
+        return (
+          <Link
+            key={slug}
+            href={`blog/${slug}`}
+            imagen={imagen}
+            title={titulo}
+            description={descripcion}
+          />
+        );
+      })
   }
+
   <a href="/blog" class="flex items-center justify-between mt-4 group w-full">
     <span
       class="flex items-center gap-1 select-none font-mono z-20 bottom-3 bg-background left-3 text-sm py-0.5 px-1 animate-in fade-in slide-in-from-bottom-2 duration-300 text-neutral-600 dark:text-neutral-400"

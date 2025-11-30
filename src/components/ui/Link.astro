@@ -1,12 +1,18 @@
 ---
-const { href, title, description, icon } = Astro.props;
+const { href, title, description, imagen, icon } = Astro.props;
 ---
 
 <div class="animate-reveal w-full">
   <a
     href={href}
-    class="group cursor-pointer gap-3 flex items-center justify-between border-b sm:border-0 hover:bg-neutral-200/50 dark:hover:bg-neutral-700/50 transition-colors duration-300 focus-visible:bg-neutral-200/50"
-    ><div class="flex flex-col">
+    class="group cursor-pointer gap-3 flex items-center justify-between border-b sm:border-0 hover:bg-neutral-200/50 dark:hover:bg-neutral-700/50 transition-colors duration-300 rounded-l-[10px] focus-visible:bg-neutral-200/50"
+  >
+    <img
+      class="hidden sm:block min-w-16 min-h-16 max-w-16 max-h-16 object-cover rounded-[10px]"
+      src={imagen}
+      alt={`Imagen de ${title}`}
+    />
+    <div class="flex flex-col w-full">
       <h4
         class="flex items-center gap-1 text-base font-medium text-neutral-800 dark:text-neutral-300"
       >
