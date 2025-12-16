@@ -20,8 +20,7 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "resend": "^6.5.0",
-    "tailwindcss": "^4.1.16",
-    "uvcanvas": "^0.3.0"
+    "tailwindcss": "^4.1.16"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.19"
