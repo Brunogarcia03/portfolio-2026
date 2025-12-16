@@ -10,9 +10,9 @@ prev: "piensa-en-la-nada"
 
 **INT. DEPARTAMENTO - ATARDECER**
 
-Máquina de escribir en primer plano. Lluvia, un departamento antiguo en Los Angeles. una hoja puesta iniciando lo que sería una carta (un anciano la recita):
+Máquina de escribir en primer plano. Lluvia, un departamento antiguo en Buenos Aires. una hoja puesta iniciando lo que sería una carta (un anciano la recita):
 
-> Los angeles, invierno de 1983.
+> Tres de febrero, Buenos Aires. Invierno de 1983.
 >
 > Estimado señor Hans van den Broek, Noordhollands Dagblad de Paises Bajos:
 >

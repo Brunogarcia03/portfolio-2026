@@ -17,6 +17,7 @@ Sueñan los olvidables con ese instante que los justifique.<br/>
 
 Shah Jahan no construyó el Taj Mahal: fueron los olvidables quienes arrastraron el mármol.<br/>
 Vespasiano no cargó con esas viejas columnas: fueron los olvidables quienes murieron dentro de ellas.<br/>
+
 Sueñan los olvidables con que alguna belleza del mundo lleve su nombre, aunque sea en secreto.<br/>
 Sueñan con su sepulcro de bastas alegorías; con tres figuras femeninas que resuman su vida entera.<br/>
 
@@ -36,7 +37,7 @@ flanqueada por las hermanas Isis y Neftis.<br/>
 
 Los olvidables que rezan para que sus huesos sean visitados 30 años después de su muerte, <br/>20, 10 años después de su muerte.<br/>
 
-Los olvidables, que vagan sus horas sin forma, con su turbia memoria, <br/>que desglosan la inutilidad de las palabras y, allá, a lo lejos, esperan la muerte.<br/>
+Los olvidables, que vagan sus horas sin forma, con su turbia memoria, <br/>que desglosan la inutilidad de las palabras y, allá, a lo lejos, esperan ser recordados.<br/>
 
 Los olvidables: <br/>los que sostenemos el cielo sin que el cielo nos vea; <br/>los que creemos en lo eterno siendo efímeros; <br/>los que soñamos con el legado y somos, simplemente,<br/>
 olvidables.<br/>
