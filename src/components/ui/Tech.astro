@@ -1,0 +1,136 @@
+---
+import astro from "@/assets/svgs/astro.svg";
+import html from "@/assets/svgs/html5.svg";
+import css from "@/assets/svgs/css_old.svg";
+import js from "@/assets/svgs/javascript.svg";
+import python from "@/assets/svgs/python.svg";
+import typescript from "@/assets/svgs/typescript.svg";
+import nextjs from "@/assets/svgs/nextjs_icon_dark.svg";
+import react from "@/assets/svgs/react_dark.svg";
+import reactLight from "@/assets/svgs/react_light.svg";
+import prisma from "@/assets/svgs/prisma_dark.svg";
+import gsap from "@/assets/svgs/gsap-icon.svg";
+import motion from "@/assets/svgs/motion_dark.svg";
+import motionLight from "@/assets/svgs/motion.svg";
+import strapi from "@/assets/svgs/strapi.svg";
+import tailwind from "@/assets/svgs/tailwindcss.svg";
+import astroLight from "@/assets/svgs/astro-light.svg";
+import prismaLight from "@/assets/svgs/prisma.svg";
+
+const icons = [
+  { name: "Astro", light: astroLight.src, dark: astro.src },
+  { name: "HTML5", light: html.src, dark: html.src },
+  { name: "CSS3", light: css.src, dark: css.src },
+  { name: "JavaScript", light: js.src, dark: js.src },
+  { name: "TypeScript", light: typescript.src, dark: typescript.src },
+  { name: "React", light: reactLight.src, dark: react.src },
+  { name: "Next.js", light: nextjs.src, dark: nextjs.src },
+  { name: "Tailwind", light: tailwind.src, dark: tailwind.src },
+  { name: "GSAP", light: gsap.src, dark: gsap.src },
+  { name: "Strapi", light: strapi.src, dark: strapi.src },
+  { name: "Prisma", light: prismaLight.src, dark: prisma.src },
+  { name: "Motion", light: motionLight.src, dark: motion.src },
+  { name: "Python", light: python.src, dark: python.src },
+];
+---
+
+<section
+  class="relative text-xs md:text-sm font-medium leading-5 max-[690px]:px-8 px-4 pt-4 pb-4 md:pb-8 flex flex-col gap-2"
+>
+  <svg
+    data-direction="bottom"
+    data-variant="full-screen"
+    class="absolute pointer-events-none z-10 text-[#ddb3ff] dark:text-neutral-600 bottom-0 w-full"
+    width="100%"
+    height="1"
+    viewBox="0 0 100 1"
+    preserveAspectRatio="none"
+    style="left:50%;transform:translateX(-50%);width:100vw"
+    ><line
+      x1="0"
+      y1="0.5"
+      x2="100"
+      y2="0.5"
+      stroke="currentColor"
+      stroke-width="1"
+      stroke-dasharray="6 6"
+      vector-effect="non-scaling-stroke"></line></svg
+  >
+  <h2
+    class="animate-reveal text-start w-full text-lg md:text-xl text-neutral-800 dark:text-neutral-300"
+  >
+    Tecnologías
+  </h2>
+
+  <div
+    class="w-full overflow-hidden mask-[linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] dark:mask-[linear-gradient(to_right,transparent,white_10%,white_90%,transparent)] animate-reveal"
+  >
+    <ul
+      class="flex w-max items-center gap-5 md:gap-8 pr-5 md:pr-8 pt-3 md:pt-5 will-change-transform animate-ticker hover:[animation-play-state:paused]"
+    >
+      {
+        icons.map((icon) => (
+          <li
+            class="flex animate-reveal flex-col items-center gap-y-1 text-xs md:text-sm
+                 text-neutral-600 dark:text-neutral-400 whitespace-nowrap"
+          >
+            <img
+              src={icon.light}
+              alt={icon.name}
+              class="block dark:hidden h-8 md:h-10 w-10 md:w-12 object-contain"
+              loading="lazy"
+            />
+
+            {/* DARK */}
+            <img
+              src={icon.dark}
+              alt={icon.name}
+              class="hidden dark:block h-8 md:h-10 w-10 md:w-12 object-contain"
+              loading="lazy"
+            />
+          </li>
+        ))
+      }
+
+      {/* duplicado para loop infinito */}
+      {
+        icons.map((icon) => (
+          <li
+            class="flex animate-reveal flex-col items-center gap-y-1 text-xs md:text-sm
+                 text-neutral-600 dark:text-neutral-400 whitespace-nowrap"
+          >
+            <img
+              src={icon.light}
+              alt={icon.name}
+              class="block dark:hidden h-8 md:h-10 w-10 md:w-12 object-contain"
+              loading="lazy"
+            />
+
+            {/* DARK */}
+            <img
+              src={icon.dark}
+              alt={icon.name}
+              class="hidden dark:block h-8 md:h-10 w-10 md:w-12 object-contain"
+              loading="lazy"
+            />
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
+
+<style>
+  @keyframes ticker {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-ticker {
+    animation: ticker 20s linear infinite;
+  }
+</style>
