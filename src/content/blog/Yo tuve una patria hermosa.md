@@ -5,6 +5,7 @@ descripcion: "vi al tango surgir en los arrabales, luego lo vi enamorar a París
 imagen: "https://images.unsplash.com/photo-1588388866431-15cbdbe37634?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
 indice: 11
 prev: "los-olvidables"
+next: "la-vieja-casa-de-barro"
 ---
 
 > _Ich hatte einst ein schönes Vaterland._<br/> _Das küsste mich auf deutsch und sprach auf deutsch_<br/> _(man glaubt es kaum, wie gut es klang)_ <br/> _das Wort:"Ich liebe dich!"_ <br/> _Es war ein Traum._ - **Heinrich Heine**

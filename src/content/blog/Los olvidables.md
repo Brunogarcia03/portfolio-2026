@@ -25,11 +25,11 @@ Shelley habló con un viajero que halló en el desierto<br/>
 dos enormes piernas pétreas<br/>
 y un rostro roto que aún conservaba su gesto de imperio.<br/>
 En el pedestal, la soberbia decía:<br/>
-«Soy Ozymandias, rey de reyes.<br/>
-Si alguien quiere saber cuán grande he sido,<br/>
-que supere alguna de mis obras».<br/>
+_«Soy Ozymandias, rey de reyes._<br/>
+_Si alguien quiere saber cuán grande he sido,_<br/>
+_que supere alguna de mis obras»_.<br/>
 A su alrededor —solo arena. Solitaria arena, llano olvido.<br/>
-¿Qué será de nosotros que no hemos hecho ninguna?<br/>
+¿Qué será de nosotros que solo tenemos el olvido?<br/>
 
 Los olvidables, que no merecen menos que una pirámide<br/>
 coronada por el disco solar,<br/>
@@ -37,7 +37,7 @@ flanqueada por las hermanas Isis y Neftis.<br/>
 
 Los olvidables que rezan para que sus huesos sean visitados 30 años después de su muerte, <br/>20, 10 años después de su muerte.<br/>
 
-Los olvidables, que vagan sus horas sin forma, con su turbia memoria, <br/>que desglosan la inutilidad de las palabras y, allá, a lo lejos, esperan ser recordados.<br/>
+Los olvidables, que vagan sus horas sin forma, con su turbia memoria, <br/>que desglosan la inutilidad de las palabras y, allá, a lo lejos, esperan que perdure su recuerdo.<br/>
 
 Los olvidables: <br/>los que sostenemos el cielo sin que el cielo nos vea; <br/>los que creemos en lo eterno siendo efímeros; <br/>los que soñamos con el legado y somos, simplemente,<br/>
 olvidables.<br/>
