@@ -2,6 +2,7 @@
 import Github from "@/assets/Github.astro";
 import Instagram from "@/assets/Instagram.astro";
 import Linkedin from "@/assets/Linkedin.astro";
+import ButtonTheme from "./ui/ButtonTheme.astro";
 ---
 
 <div
@@ -49,19 +50,22 @@ import Linkedin from "@/assets/Linkedin.astro";
   >
     <div class="flex items-center md:gap-4 gap-2">
       <div
-        class="animate-fade-in-fast relative size-10 sm:size-[60px] bg-[#ddb3ff] dark:bg-neutral-600 flex items-center justify-center overflow-hidden rounded-[10px]"
+        class="animate-fade-in-fast relative w-[60px] h-10 sm:w-20 sm:h-[60px] bg-[#ddb3ff] dark:bg-neutral-600 flex items-center justify-center overflow-hidden rounded-[10px]"
       >
         <div
           class="absolute inset-0"
-          style="background-image: url('/favicon.png'); background-position: center; background-repeat: no-repeat; background-size: cover;"
+          style="background-image: url('/favicon.png'); background-position: center; background-repeat: no-repeat; background-size: cover; object-fit: cover;"
         >
         </div>
       </div>
-      <div class="flex flex-col">
+      <div class="flex flex-col items-start w-full">
         <h1
-          class="animate-fade-in md:text-xl text-lg font-medium text-neutral-800 dark:text-neutral-300"
+          class="flex items-center gap-1 animate-fade-in-fast md:text-xl text-lg font-medium text-neutral-800 dark:text-neutral-300 w-full"
         >
-          ¡Hola! Soy Bruno
+          <span class="w-full">¡Hola! Soy Bruno</span>
+          <span class="text-xs md:text-sm">
+            <ButtonTheme showText={true} />
+          </span>
         </h1><h2
           class="animate-fade-in md:text-base text-sm font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 flex items-center gap-1.5"
         >

@@ -1,14 +1,13 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 
-import { Novatrix, Opulento } from "uvcanvas";
-
 import Hello from "@/components/Hello.astro";
 import About from "@/components/About.astro";
 import Tech from "@/components/ui/Tech.astro";
 import Projects from "@/components/Projects.astro";
 import Blog from "@/components/Blog.astro";
 import Footer from "@/components/Footer.astro";
+import ThemeCanvas from "@/components/ui/ThemeCanvas";
 ---
 
 <Layout>
@@ -57,7 +56,7 @@ import Footer from "@/components/Footer.astro";
     <Hello />
     <About />
     <section
-      class="animate-fade-in-slow flex items-center justify-center relative w-full p-2 max-[690px]:py-2"
+      class="animate-fade-in-slow flex items-center justify-center relative w-full p-2"
     >
       <svg
         data-direction="bottom"
@@ -79,14 +78,9 @@ import Footer from "@/components/Footer.astro";
           vector-effect="non-scaling-stroke"></line></svg
       >
       <div
-        class="block dark:hidden bg-[#ddb3ff] w-[90%] lg:w-full h-[150px] sm:h-[200px] md:h-[270px]"
+        class="bg-[#ddb3ff] dark:bg-neutral-600 w-[90%] lg:w-full h-[150px] sm:h-[200px] md:h-[270px]"
       >
-        <Novatrix client:only="react" />
-      </div>
-      <div
-        class="hidden dark:block bg-neutral-600 w-[90%] lg:w-full h-[150px] sm:h-[200px] md:h-[270px]"
-      >
-        <Opulento client:only="react" />
+        <ThemeCanvas client:only="react" />
       </div>
     </section>
     <Tech />
