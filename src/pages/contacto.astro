@@ -6,6 +6,7 @@ import Layout from "@/layouts/Layout.astro";
 
 import contact_gif from "@/assets/contact.gif";
 import Footer from "@/components/Footer.astro";
+import ButtonTheme from "@/components/ui/ButtonTheme.astro";
 ---
 
 <Layout title="Contacto. Gracias por escribir">
@@ -108,12 +109,18 @@ import Footer from "@/components/Footer.astro";
               alt=""
             />
           </div>
-          <div class="flex flex-col">
+          <div class="flex flex-col w-full">
             <h1
-              class="md:text-xl text-lg font-medium animate-fade-in-fast text-neutral-800 dark:text-neutral-300"
+              class="flex items-center md:text-xl w-full justify-between sm:justify-start text-lg font-medium animate-fade-in-fast text-neutral-800 dark:text-neutral-300"
             >
-              <span class="text-slate-600 dark:text-slate-400">200</span> ¡Gracias
-              por escribir!
+              <div class="flex items-center w-full">
+                <span class="text-slate-600 dark:text-slate-400 mr-1">200</span>
+                <span>¡Gracias por escribir!</span>
+              </div>
+
+              <span class="text-xs md:text-sm ml-3">
+                <ButtonTheme showText={true} />
+              </span>
             </h1><a
               href="https://docs.google.com/document/d/1wy3wBpAC25UEH8HzhZEyGYnJG-3shSRh/edit?usp=sharing&ouid=116509917676455272710&rtpof=true&sd=true"
               target="_blank"

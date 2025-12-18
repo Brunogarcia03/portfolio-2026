@@ -7,6 +7,7 @@ import Linkedin from "@/assets/Linkedin.astro";
 import Github from "@/assets/Github.astro";
 import Instagram from "@/assets/Instagram.astro";
 import Footer from "@/components/Footer.astro";
+import ButtonTheme from "@/components/ui/ButtonTheme.astro";
 ---
 
 <Layout title="404 Página no encontrada">
@@ -99,7 +100,7 @@ import Footer from "@/components/Footer.astro";
       >
         <div class="flex items-center md:gap-4 gap-2">
           <div
-            class="animate-fade-in-fast relative size-[60px] md:size-20 bg-[#ddb3ff] dark:bg-neutral-600 flex items-center justify-center overflow-hidden rounded-[10px]"
+            class="animate-fade-in-fast relative hidden sm:flex sm:size-10 md:size-[60px] bg-[#ddb3ff] dark:bg-neutral-600 items-center justify-center overflow-hidden rounded-[10px]"
           >
             <img
               class="absolute w-full h-full object-cover scale-110"
@@ -107,12 +108,17 @@ import Footer from "@/components/Footer.astro";
               alt=""
             />
           </div>
-          <div class="flex flex-col">
+          <div class="flex flex-col w-full">
             <h1
-              class="animate-fade-in md:text-xl text-lg font-medium text-neutral-800 dark:text-neutral-300"
+              class="flex items-center justify-between md:justify-start animate-fade-in md:text-xl text-lg font-medium text-neutral-800 dark:text-neutral-300"
             >
-              <span class="text-slate-600 dark:text-slate-400">404</span> Página
-              no encontrada
+              <div class="flex items-center">
+                <span class="text-slate-600 dark:text-slate-400 mr-1">404</span> Página
+                no encontrada
+              </div>
+              <span class="text-xs md:text-sm ml-3">
+                <ButtonTheme showText={true} />
+              </span>
             </h1><a
               href="/"
               class="animate-fade-in-slow group md:text-base text-sm font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 flex items-center gap-1.5"
