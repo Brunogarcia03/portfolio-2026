@@ -109,22 +109,16 @@ import ButtonTheme from "@/components/ui/ButtonTheme.astro";
               alt=""
             />
           </div>
-          <div class="flex flex-col w-full">
+          <div class="flex flex-col">
             <h1
-              class="flex items-center md:text-xl w-full justify-between sm:justify-start text-lg font-medium animate-fade-in-fast text-neutral-800 dark:text-neutral-300"
+              class="md:text-xl text-lg font-medium animate-fade-in-fast text-neutral-800 dark:text-neutral-300"
             >
-              <div class="flex items-center w-full">
-                <span class="text-slate-600 dark:text-slate-400 mr-1">200</span>
-                <span>¡Gracias por escribir!</span>
-              </div>
-
-              <span class="text-xs md:text-sm ml-3">
-                <ButtonTheme showText={true} />
-              </span>
+              <span class="text-slate-600 dark:text-slate-400">200</span> ¡Gracias
+              por escribir!
             </h1><a
               href="https://docs.google.com/document/d/1wy3wBpAC25UEH8HzhZEyGYnJG-3shSRh/edit?usp=sharing&ouid=116509917676455272710&rtpof=true&sd=true"
               target="_blank"
-              class="flex items-center animate-fade-in"
+              class="flex items-center justify-center sm:justify-start animate-fade-in"
               ><span class="text-neutral-700 dark:text-neutral-300 mr-0.5"
                 >Curriculum Vitae</span
               ><svg
@@ -149,26 +143,36 @@ import ButtonTheme from "@/components/ui/ButtonTheme.astro";
                   d="M249.18 328.324c-9.788 15.384-19.179 30.434-40.222 45.055c-11.256 7.89-37.164 23.306-73.99 23.306C64.709 396.685 8 345.605 8 255.801c0-78.486 53.345-140.486 128.466-140.486c30.434 0 57.474 10.521 77.387 26.304c18.414 14.65 27.038 29.304 34.563 42.456l-52.58 26.273c-3.762-8.626-8.29-17.649-19.913-27.406c-12.784-10.155-25.54-13.152-36.46-13.152c-42.821 0-65.364 39.825-65.364 84.145c0 58.238 29.7 87.143 65.364 87.143c34.563 0 48.48-24.042 57.474-39.426zm184.194-204.75H504l-92.037 265.22h-67.597l-90.904-265.22h70.625l54.843 188.6z"
                 ></path></svg
               ></a
-            ><a
-              href="/"
-              class="animate-fade-in-slow group md:text-base text-sm font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 flex items-center gap-1.5"
             >
-              Volver al inicio <svg
-                class="size-3 shrink-0 text-neutral-300 group-hover:text-neutral-700 -rotate-90 sm:-rotate-45 group-hover:-rotate-90 transition-all duration-300 group-focus-visible:text-neutral-700 group-focus-visible:-rotate-90"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                ><path
-                  d="M7 17L17 7M17 7H7M17 7V17"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"></path></svg
+            <div
+              class="flex items-center justify-center sm:justify-start gap-x-3 animate-fade-in-slow w-full"
+            >
+              <a
+                href="/"
+                class="animate-fade-in-slow group md:text-base text-sm font-regular md:leading-6 leading-5 text-neutral-600 dark:text-neutral-400 flex items-center gap-1.5"
               >
-            </a>
+                Volver al inicio <svg
+                  class="size-3 shrink-0 text-neutral-300 group-hover:text-neutral-700 -rotate-90 sm:-rotate-45 group-hover:-rotate-90 transition-all duration-300 group-focus-visible:text-neutral-700 group-focus-visible:-rotate-90"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  ><path
+                    d="M7 17L17 7M17 7H7M17 7V17"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path></svg
+                >
+              </a>
+              <span
+                class="text-xs md:text-sm text-neutral-600 dark:text-neutral-400"
+              >
+                <ButtonTheme showText={true} />
+              </span>
+            </div>
           </div>
         </div><div
-          class="flex items-center sm:flex-col justify-around sm:justify-start w-full sm:w-auto gap-2 sm:gap-1 sm:mt-0 mt-4"
+          class="flex items-center sm:flex-col justify-around sm:justify-start w-full sm:w-auto gap-2 sm:gap-1"
         >
           <a
             target="_blank"
