@@ -3,8 +3,10 @@ import { getCollection } from "astro:content";
 
 import Link from "./ui/Link.astro";
 
-const fecha = new Date();
-const posts = await getCollection("blog");
+const today = new Date();
+const posts = (await getCollection("blog"))
+  .toSorted((a, b) => a.data.indice - b.data.indice)
+  .slice(0, 5);
 ---
 
 <section
@@ -35,23 +37,15 @@ const posts = await getCollection("blog");
     Pensamientos
   </h2>
   {
-    posts
-      .sort((a, b) => a.data.indice - b.data.indice)
-      .slice(0, 5)
-      .map((post) => {
-        const { slug, data } = post;
-        const { titulo, descripcion, imagen } = data;
-
-        return (
-          <Link
-            key={slug}
-            href={`blog/${slug}`}
-            imagen={imagen}
-            title={titulo}
-            description={descripcion}
-          />
-        );
-      })
+    posts.map(({ slug, data: { titulo, descripcion, imagen } }) => (
+      <Link
+        key={slug}
+        href={`blog/${slug}`}
+        imagen={imagen}
+        title={titulo}
+        description={descripcion}
+      />
+    ))
   }
 
   <a href="/blog" class="flex items-center justify-between mt-4 group w-full">
@@ -75,7 +69,7 @@ const posts = await getCollection("blog");
       class="select-none font-mono z-20 bottom-3 bg-background right-3 text-sm py-0.5 px-1 animate-in fade-in slide-in-from-bottom-2 duration-300 text-neutral-600 dark:text-neutral-400"
     >
       {
-        fecha.toLocaleDateString("es-AR", {
+        today.toLocaleDateString("es-AR", {
           day: "2-digit",
           month: "2-digit",
           year: "numeric",

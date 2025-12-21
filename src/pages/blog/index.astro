@@ -10,12 +10,14 @@ import raven from "@/assets/never-more.gif";
 import { getCollection } from "astro:content";
 import Footer from "@/components/Footer.astro";
 import ButtonTheme from "@/components/ui/ButtonTheme.astro";
-const posts = (await getCollection("blog")).sort(
+const posts = (await getCollection("blog")).toSorted(
   (a, b) => a.data.indice - b.data.indice
 );
+
+const ANIMATED_LIMIT = 5;
 ---
 
-<Layout>
+<Layout title={"Blog | Bruno G. | Programador, Desarrollador Web e Instructor"}>
   <div
     class="absolute inset-0 max-w-[650px] mx-auto max-[690px]:mx-4 pointer-events-none overflow-hidden"
   >
@@ -213,19 +215,21 @@ const posts = (await getCollection("blog")).sort(
       </h2>
 
       {
-        posts.map((post, index) => {
-          const { slug, data } = post;
-          const { titulo, descripcion, imagen, indice } = data;
+        posts.map(
+          ({ slug, data: { titulo, descripcion, imagen, indice } }, index) => {
+            const animationClass =
+              index < ANIMATED_LIMIT
+                ? "animate-fade-in-slow"
+                : "animate-reveal";
 
-          return (
-            <>
+            return (
               <div
-                class={`${index <= 4 ? "animate-fade-in-slow" : "animate-reveal"} flex items-center justify-between gap-x-4 w-full border-b sm:border-0 rounded-l-[10px] hover:bg-neutral-200/55 dark:hover:bg-neutral-700/15 transition-colors duration-300 focus-visible:bg-neutral-200/50`}
+                class={`${animationClass} flex items-center justify-between gap-x-4 w-full border-b sm:border-0 rounded-l-[10px] hover:bg-neutral-200/55 dark:hover:bg-neutral-700/15 transition-colors duration-300 focus-visible:bg-neutral-200/50`}
               >
                 <img
                   class="hidden sm:block min-w-16 min-h-16 max-w-16 max-h-16 object-cover rounded-[10px]"
                   src={imagen}
-                  alt={`Imagen de ${titulo}`}
+                  alt={titulo}
                 />
                 <a
                   href={`blog/${slug}`}
@@ -264,9 +268,9 @@ const posts = (await getCollection("blog")).sort(
                   </>
                 </a>
               </div>
-            </>
-          );
-        })
+            );
+          }
+        )
       }
     </section>
     <Footer />

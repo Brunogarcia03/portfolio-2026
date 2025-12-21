@@ -19,7 +19,12 @@ const { data } = post;
 const { Content } = await render(post);
 ---
 
-<Layout>
+<Layout
+  title={data.titulo}
+  description={data.descripcion}
+  imagen={data.imagen}
+  url={`https://brunog.com.ar/blog/${post.slug}`}
+>
   <div
     class="absolute inset-0 max-w-[650px] mx-auto max-[690px]:mx-4 pointer-events-none overflow-hidden"
   >

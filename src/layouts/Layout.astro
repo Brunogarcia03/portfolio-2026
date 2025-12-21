@@ -1,9 +1,12 @@
 ---
 import "../styles/global.css";
+import preview from "../../public/preview.png";
 
 const {
   title = "Bruno G. | Programador, Desarrollador Web e Instructor",
   description = "Apasionado por la programación y la enseñanza, creando soluciones innovadoras. Inspirando a otros a descubrir el fascinante mundo de la tecnología.",
+  imagen = preview.src,
+  url = "https://brunog.com.ar/",
 } = Astro.props;
 ---
 
@@ -12,8 +15,26 @@ const {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" href={"/favicon.png"} />
+
     <title>{title}</title>
     <meta name="description" content={description} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={imagen} />
+    <meta property="og:url" content={url} />
+    <meta
+      property="og:site_name"
+      content="Bruno G. | Programador, Desarrollador Web e Instructor"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imagen} />
   </head>
 
   <body
