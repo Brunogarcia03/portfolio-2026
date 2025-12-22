@@ -2,7 +2,7 @@
 titulo: "Recuento de cadáveres"
 creado: "16 de noviembre de 2025"
 descripcion: "Juzgar si la vida merece la pena ser vivida es contestar, tal vez, la única pregunta que realmente importa"
-imagen: "src/assets/photos/blog/5.avif"
+imagen: "/src/assets/photos/blog/5.avif"
 indice: 5
 next: "piensa-en-la-nada"
 prev: "la-refutación-de-una-leyenda-de-amor"

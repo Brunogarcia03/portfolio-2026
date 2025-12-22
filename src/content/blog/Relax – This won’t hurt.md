@@ -2,7 +2,7 @@
 titulo: "Relax – This won’t hurt"
 creado: "22 de octubre de 2025"
 descripcion: "67. Te estás volviendo codicioso. Actúa como si fueras viejo. Relájate, esto no te dolerá."
-imagen: "src/assets/photos/blog/9.avif"
+imagen: "/src/assets/photos/blog/9.avif"
 indice: 9
 next: "los-olvidables"
 prev: "finis-gloriae-mundi"

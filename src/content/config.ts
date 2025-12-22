@@ -5,7 +5,7 @@ const blog = defineCollection({
     titulo: z.string(),
     creado: z.string(),
     descripcion: z.string(),
-    imagen: z.string().url(),
+    imagen: z.string(),
     indice: z.number(),
     next: z.string().optional(),
     prev: z.string().optional(),

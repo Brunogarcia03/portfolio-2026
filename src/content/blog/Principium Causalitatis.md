@@ -2,7 +2,7 @@
 titulo: "Principium Causalitatis"
 creado: "18 de noviembre de 2025"
 descripcion: "¿Acaso -pregunto yo- existirá un sonido sin su origen? La problemática conlleva la inexistencia de Dios."
-imagen: "src/assets/photos/blog/3.avif"
+imagen: "/src/assets/photos/blog/3.avif"
 indice: 3
 next: "la-refutación-de-una-leyenda-de-amor"
 prev: "regresé-del-otro-lado-del-cielo"

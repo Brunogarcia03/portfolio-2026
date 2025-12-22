@@ -2,7 +2,7 @@
 titulo: "Ahora te has ido*"
 creado: "29 de noviembre de 2025"
 descripcion: "Ella era un sueño, como todas las veces que he vivido."
-imagen: "src/assets/photos/blog/14.avif"
+imagen: "/src/assets/photos/blog/14.avif"
 indice: 14
 prev: "temporada-de-caza-sarajevo-1992"
 next: "en-cierta-calle-su-cierta-puerta"
