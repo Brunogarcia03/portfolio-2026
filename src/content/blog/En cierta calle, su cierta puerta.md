@@ -5,17 +5,17 @@ descripcion: "Errare obscuri sola sub nocte per umbram"
 imagen: "/blog/15.avif"
 indice: 15
 prev: "ahora-te-has-ido"
-next: ""
+next: "el-federal-emerenciano-basilio-de-figueroa"
 ---
 
 > En cierta calle hay cierta firme puerta <br/>
 > con su timbre y su número preciso <br/>
 > y un sabor a perdido paraíso, <br/>
 > que en los atardeceres no está abierta
-> a mi paso. <br/> > _Jorge Luis Borges_
+> a mi paso. <br/> _Jorge Luis Borges_
 
 En cierta calle desértica, entre Castelli y patricios.
-existe en cierta puerta un vínculo entre el amor esperado y la segura e insistente soledad. Lo acompaña en lo alto, encima de su cabeza, un titónido, de la familia de orden Estrigiformes, de unos treinta centímetros, con plumas de un tenue color negruzco. Pudo intuir que poseía la capacidad de leer su mente, puesto que respondía con cánticos su odónimo lúdico — Castelli —piensa — Juan José Castelli, el orador de la revolución de mayo, gran derrotado de Huaqui. Patricios, regimiento de Patricios, defensores de Buenos Aires frente al imperialismo Ingles —le responde el búho con una bella melodía alada y continúa con la distracción— Tres de febrero, batalla de San Lorenzo o la caída del tirano. —lo siente enojarse, su melodía brusca y oscura le insta al olvido. Y la puerta, de un color verde claro, sigue cerrada, el cactus a su lado es un simbolismo de la lejanía.
+existe en cierta puerta un vínculo entre el amor esperado y la segura e insistente soledad. Lo acompaña en lo alto, encima de su cabeza, un búho de unos treinta centímetros, con plumas de un tenue color negruzco. Pudo intuir que poseía la capacidad de leer su mente, puesto que respondía con cánticos su odónimo lúdico — Castelli —piensa — Juan José Castelli, el orador de la revolución de mayo, gran derrotado de Huaqui. Patricios, regimiento de Patricios, defensores de Buenos Aires frente al imperialismo Ingles —le responde el búho con una bella melodía alada y continúa con la distracción— Tres de febrero, batalla de San Lorenzo o la caída del tirano. —lo siente enojarse, su melodía brusca y oscura le insta al olvido. Y la puerta, de un color verde claro, sigue cerrada, el cactus a su lado es un simbolismo de la lejanía.
 
 El búho se posa en el respaldar del banco, le susurra: _“Errare obscuri sola sub nocte”_. — Ya va a salir —piensa tranquilo para responderle— la he visto salir muchas veces, ¿No sé por qué cambiaría ahora? Si la he vista tantas veces, he visto su pelo castaño, sus ojos azules, su mano izquierda en cuyo dedo anular hay un anillo en forma de luna; he visto su nariz y su forma de caminar, no conozco más que su nombre pero conozco sus labios y la manera incoherente que tenía de hacerme olvidar. «_bésame, besa mis labios, besa mi pelo, mis dedos, mis ojos, mi cerebro, hazme olvidar._» ¿Tú acaso puedes entrar en mi cerebro y dirigirte al núcleo oscuro de mi ser y, simplemente, hacerme olvidar?
 
