@@ -2,7 +2,7 @@
 titulo: "Yo tuve una patria hermosa"
 creado: "29 de noviembre de 2025"
 descripcion: "vi al tango surgir en los arrabales, luego lo vi enamorar a París."
-imagen: "https://images.unsplash.com/photo-1588388866431-15cbdbe37634?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
+imagen: "src/assets/photos/blog/11.avif"
 indice: 11
 prev: "los-olvidables"
 next: "la-vieja-casa-de-barro"

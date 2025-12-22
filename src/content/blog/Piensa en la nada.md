@@ -2,7 +2,7 @@
 titulo: "Piensa en la nada"
 creado: "25 de octubre de 2025"
 descripcion: "piensa en la nada. ¿Lo lograste? No lo creo."
-imagen: "https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
+imagen: "src/assets/photos/blog/6.avif"
 indice: 6
 next: "un-argumento-en-favor-del-abuso-de-las-palabras"
 prev: "recuento-de-cadáveres"

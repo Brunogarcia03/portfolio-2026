@@ -25,11 +25,11 @@ const { title, image, tech = [], description, repo, demo } = Astro.props;
   <div class="w-full sm:w-[90%] mx-auto md:w-full">
     <div class="flex items-center justify-between">
       <a href={demo} target="_blank" class="cursor-pointer">
-        <h3
+        <h4
           class="font-bold text-base md:text-[18px] text-neutral-800 dark:text-neutral-300"
         >
           {title}
-        </h3>
+        </h4>
       </a>
       {
         repo && (
@@ -71,20 +71,32 @@ const { title, image, tech = [], description, repo, demo } = Astro.props;
               {t.icon ? (
                 // 1) Si es string (ruta)
                 typeof t.icon === "string" ? (
-                  <img src={t.icon} alt={t.name} class="size-4" />
+                  <img src={t.icon} alt={"Icon: " + t.name} class="size-4" />
                 ) : // 2) Si es objeto importado (Astro devuelve { src, width, height })
                 t.icon.src ? (
-                  <img src={t.icon.src} alt={t.name} class="size-4" />
+                  <img
+                    src={t.icon.src}
+                    alt={"Icon: " + t.name}
+                    class="size-4"
+                  />
                 ) : // 3) Si es módulo que expone default (ej. import * as X)
                 t.icon.default && typeof t.icon.default === "string" ? (
-                  <img src={t.icon.default} alt={t.name} class="size-4" />
+                  <img
+                    src={t.icon.default}
+                    alt={"Icon: " + t.name}
+                    class="size-4"
+                  />
                 ) : // 4) Si es componente (SVGR / componente React/Preact)
                 typeof t.icon === "function" || typeof t.icon === "object" ? (
                   // @ts-ignore - render dinámico de componente
                   <t.icon class="size-4" />
                 ) : (
                   // fallback: render con String()
-                  <img src={String(t.icon)} alt={t.name} class="size-4" />
+                  <img
+                    src={String(t.icon)}
+                    alt={"Icon: " + t.name}
+                    class="size-4"
+                  />
                 )
               ) : null}
 

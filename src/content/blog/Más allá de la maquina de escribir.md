@@ -2,7 +2,7 @@
 titulo: "Más allá de la maquina de escribir"
 creado: "4 de noviembre de 2025"
 descripcion: "Ha intentado, sin ningún grado de éxito, la armonía de los versos."
-imagen: "https://images.unsplash.com/photo-1631297203225-16d8f3084dbc?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
+imagen: "src/assets/photos/blog/1.avif"
 indice: 1
 next: "regresé-del-otro-lado-del-cielo"
 prev: "prologo"

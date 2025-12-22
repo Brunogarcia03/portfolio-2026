@@ -2,7 +2,7 @@
 titulo: "La vieja casa de barro"
 creado: "8 de diciembre de 2025"
 descripcion: "A todas las mujeres que he amado. A mis amores imposibles. A las miradas que perturban la soledad."
-imagen: "https://tn.com.ar/resizer/v2/achupallas-villa-grisolia-partido-de-alberti-6EOSCXCNXRFLFF3ONLJN2HSLVE.jpg?auth=b27a879329d3104928d9d1f920e5af765ee27243a49c1263f101b158c6810828&width=767"
+imagen: "src/assets/photos/blog/12.avif"
 indice: 12
 prev: "yo-tuve-una-patria-hermosa"
 next: "temporada-de-caza-sarajevo-1992"

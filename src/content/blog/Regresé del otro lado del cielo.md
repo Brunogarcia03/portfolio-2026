@@ -2,7 +2,7 @@
 titulo: "Regresé del otro lado del cielo"
 creado: "25 de noviembre de 2025"
 descripcion: "Recordé los ojos de la chica del supermercado, recordé lo enamorado que estaba."
-imagen: "https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800"
+imagen: "src/assets/photos/blog/2.avif"
 indice: 2
 next: "principium-causalitatis"
 prev: "más-allá-de-la-maquina-de-escribir"

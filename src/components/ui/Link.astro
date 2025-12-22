@@ -5,24 +5,33 @@ const { href, title, description, imagen, icon } = Astro.props;
 <div class="animate-reveal w-full">
   <a
     href={href}
-    class="group cursor-pointer gap-3 flex items-center justify-between border-b sm:border-0 hover:bg-neutral-200/50 dark:hover:bg-neutral-700/50 transition-colors duration-300 rounded-l-[10px] focus-visible:bg-neutral-200/50"
+    class="group cursor-pointer gap-3 flex items-center justify-between border-b sm:border-0 focus-visible:bg-neutral-200/50"
   >
-    <img
-      class="hidden sm:block min-w-16 min-h-16 max-w-16 max-h-16 object-cover rounded-[10px]"
-      src={imagen}
-      alt={`Imagen de ${title}`}
-    />
+    <div
+      class="relative hidden sm:block rounded-[10px] overflow-hidden w-16 h-14"
+    >
+      <img
+        class="absolute inset-0 w-full h-full object-cover"
+        src={imagen}
+        alt={`Imagen de ${title}`}
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+
     <div class="flex flex-col w-full">
       <h4
-        class="flex items-center gap-1 text-base font-medium text-neutral-800 dark:text-neutral-300"
+        class="flex items-center gap-1 text-base font-medium text-neutral-800 dark:text-neutral-300 group-hover:text-neutral-600 dark:group-hover:text-neutral-500 transition-colors duration-300"
       >
         {title}
-        {icon ?? icon}
-      </h4><p class="text-sm leading-6 text-neutral-600 dark:text-neutral-400">
+        {icon && <span aria-hidden="true">{icon}</span>}
+      </h4><p
+        class="text-sm leading-6 text-neutral-600 dark:text-neutral-400 group-hover:text-neutral-500 dark:group-hover:text-neutral-600 transition-colors duration-300"
+      >
         {description}
       </p>
     </div><svg
-      class="hidden sm:block size-4 shrink-0 text-neutral-300 dark:text-neutral-700 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 group-focus-visible:text-neutral-700 dark:group-focus-visible:text-neutral-300 group-hover:rotate-45 transition-all duration-300 group-focus-visible:rotate-45"
+      class="hidden sm:block size-4 shrink-0 text-neutral-300 dark:text-neutral-700 group-hover:text-neutral-700 dark:group-hover:text-neutral-300 group-focus-visible:text-neutral-700 dark:group-focus-visible:text-neutral-300 group-hover:rotate-45 transition-all duration-200 group-focus-visible:rotate-45"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
