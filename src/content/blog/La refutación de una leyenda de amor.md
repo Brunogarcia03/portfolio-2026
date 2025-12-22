@@ -2,7 +2,7 @@
 titulo: "La refutación de una leyenda de amor"
 creado: "30 de octubre de 2025"
 descripcion: "Disculparé a mi yo presente quien será mi yo pasado en el futuro"
-imagen: "../../src/assets/photos/blog/4.avif"
+imagen: "/blog/4.avif"
 indice: 4
 next: "recuento-de-cadáveres"
 prev: "principium-causalitatis"

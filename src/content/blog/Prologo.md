@@ -2,7 +2,7 @@
 titulo: "Prólogo"
 creado: "24 de noviembre de 2025"
 descripcion: "Supongo que exhibir esto es, en cierta medida, un ejercicio de autoestima"
-imagen: "../../src/assets/photos/blog/0.avif"
+imagen: "/blog/0.avif"
 indice: 0
 next: "más-allá-de-la-maquina-de-escribir"
 ---

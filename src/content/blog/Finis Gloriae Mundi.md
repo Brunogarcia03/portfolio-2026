@@ -2,7 +2,7 @@
 titulo: "Finis Gloriae Mundi"
 creado: "22 de octubre de 2025"
 descripcion: "vanitas vanitatum et omnia vanitas, es decir, “vanidad de vanidades, todo es vanidad”."
-imagen: "../../src/assets/photos/blog/8.avif"
+imagen: "/blog/8.avif"
 indice: 8
 next: "relax--this-wont-hurt"
 prev: "un-argumento-en-favor-del-abuso-de-las-palabras"
