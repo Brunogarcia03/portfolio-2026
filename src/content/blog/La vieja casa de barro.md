@@ -2,7 +2,7 @@
 titulo: "La vieja casa de barro"
 creado: "8 de diciembre de 2025"
 descripcion: "A todas las mujeres que he amado. A mis amores imposibles. A las miradas que perturban la soledad."
-imagen: "/src/assets/photos/blog/12.avif"
+imagen: "../../src/assets/photos/blog/12.avif"
 indice: 12
 prev: "yo-tuve-una-patria-hermosa"
 next: "temporada-de-caza-sarajevo-1992"

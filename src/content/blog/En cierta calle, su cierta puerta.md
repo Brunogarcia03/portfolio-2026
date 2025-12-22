@@ -2,7 +2,7 @@
 titulo: "En cierta calle, su cierta puerta"
 creado: "19 de diciembre de 2025"
 descripcion: "Errare obscuri sola sub nocte per umbram"
-imagen: "/src/assets/photos/blog/15.avif"
+imagen: "../../src/assets/photos/blog/15.avif"
 indice: 15
 prev: "ahora-te-has-ido"
 next: ""
