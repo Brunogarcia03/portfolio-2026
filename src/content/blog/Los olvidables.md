@@ -2,7 +2,7 @@
 titulo: "Los olvidables"
 creado: "27 de noviembre de 2025"
 descripcion: "Sueñan los olvidables con esas dos abstractas fechas."
-imagen: "/blog/10.avif"
+imagen: "/blog/10.jpg"
 indice: 10
 next: "yo-tuve-una-patria-hermosa"
 prev: "relax--this-wont-hurt"

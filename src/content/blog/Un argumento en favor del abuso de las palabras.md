@@ -2,7 +2,7 @@
 titulo: "Un argumento en favor del abuso de las palabras"
 creado: "6 de octubre de 2025"
 descripcion: "Permítame, antes de aceptar mi condición de monstruo, defender mi humanidad."
-imagen: "/blog/7.avif"
+imagen: "/blog/7.jpg"
 indice: 7
 next: "finis-gloriae-mundi"
 prev: "piensa-en-la-nada"

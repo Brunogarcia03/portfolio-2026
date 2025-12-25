@@ -2,7 +2,7 @@
 titulo: "Temporada de caza. Sarajevo. 1992"
 creado: "29 de noviembre de 2025"
 descripcion: "Normales $100.000, crías $200.000, hembras y longevos gratis."
-imagen: "/blog/13.avif"
+imagen: "/blog/13.jpg"
 indice: 13
 prev: "la-vieja-casa-de-barro"
 next: "ahora-te-has-ido"
