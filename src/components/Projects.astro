@@ -3,6 +3,7 @@ import Project from "./ui/Project.astro";
 
 // images
 import municipalidad from "@/assets/photos/municipalidad.webp";
+import parrhesia from "@/assets/photos/parrhesia.webp";
 import elektron from "@/assets/photos/elektron-academy.webp";
 import buscador from "@/assets/photos/buscador-regiones.webp";
 import estoicismo from "@/assets/photos/stoa-poikile.webp";
@@ -20,6 +21,7 @@ import Prisma from "@/assets/svgs/prisma_dark.svg";
 import Motion from "@/assets/svgs/motion_dark.svg";
 import React from "@/assets/svgs/react_dark.svg";
 import Gsap from "@/assets/svgs/gsap-icon.svg";
+import tailwindcss from "@tailwindcss/vite";
 ---
 
 <section
@@ -57,7 +59,19 @@ import Gsap from "@/assets/svgs/gsap-icon.svg";
     demo="https://municipalidad-alberti.vercel.app"
     tech={[
       { name: "Next.js", color: "bg-black", icon: Nextjs.src },
-      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Motion.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Tailwind.src },
+      { name: "GSAP", color: "bg-[#0e100f]", icon: Gsap.src },
+    ]}
+  />
+  <Project
+    title="Revista Parrhesia"
+    image={parrhesia.src}
+    description="¡Proyecto Personal! Revista cultural y filosófica. Parrhēsía: la valentía de decir la verdad aun cuando ese decir implique riesgo, incomodidad o sanción."
+    repo="https://github.com/Brunogarcia03/revista-borges"
+    demo="https://revista-parrhesia.vercel.app"
+    tech={[
+      { name: "Astro", color: "bg-[#6216a6]", icon: Astro.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Tailwind.src },
       { name: "GSAP", color: "bg-[#0e100f]", icon: Gsap.src },
     ]}
   />
@@ -69,7 +83,7 @@ import Gsap from "@/assets/svgs/gsap-icon.svg";
     demo="https://nodo-academy.vercel.app/"
     tech={[
       { name: "Next.js", color: "bg-black", icon: Nextjs.src },
-      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Motion.src },
+      { name: "Tailwind CSS", color: "bg-[#003159]", icon: Tailwind.src },
     ]}
   />
   <Project

@@ -6,7 +6,7 @@ const { showText = true } = Astro.props;
   id="themeToggle"
   class="animate-fade-in flex items-center justify-end gap-1 group/button cursor-pointer"
 >
-  <span class="hidden dark:flex items-center justify-center gap-1 w-full">
+  <span class="dark:hidden flex items-center justify-center gap-1 w-full">
     <span class={showText ? "hidden sm:inline" : "sr-only"}>Claro</span><svg
       xmlns="http://www.w3.org/2000/svg"
       height="24px"
@@ -18,7 +18,7 @@ const { showText = true } = Astro.props;
       ></path></svg
     >
   </span>
-  <span class="dark:hidden flex items-center justify-center gap-1 w-full group">
+  <span class="hidden dark:flex items-center justify-center gap-1 w-full group">
     <span class={showText ? "hidden sm:inline" : "sr-only"}>Oscuro</span>
     <svg
       xmlns="http://www.w3.org/2000/svg"
