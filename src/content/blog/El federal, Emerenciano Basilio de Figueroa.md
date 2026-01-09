@@ -5,7 +5,7 @@ descripcion: "Dentro de una hora debe morir; ignora el por qué: más la provide
 imagen: "/blog/16.jpg"
 indice: 16
 prev: "en-cierta-calle-su-cierta-puerta"
-next: ""
+next: "el-amor-en-la-vida-de-un-hombre"
 ---
 
 Dentro de una hora debe morir; ignora el por qué: más la providencia divina, en la cual confía incluso en ese momento crítico, así lo ha querido. Sentado en el asiento angosto del carruaje que improvisa su calabozo, por primera vez en su tumultuosa e indisciplinada vida se encontraba pacífico; impasible ante la verdad de la muerte.
