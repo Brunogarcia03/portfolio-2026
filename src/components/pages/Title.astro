@@ -54,11 +54,7 @@ const { data } = Astro.props;
       alt={`Imagen post: ${data.titulo}`}
       width={693}
       height={433}
-      sizes="
-    (max-width: 640px) 100vw,
-    (max-width: 1024px) 90vw,
-    693px
-  "
+      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 693px"
       widths={[320, 480, 640, 768, 960]}
       quality={72}
       format="webp"
