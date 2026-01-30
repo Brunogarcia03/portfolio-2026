@@ -11,7 +11,7 @@ import { getCollection } from "astro:content";
 import Footer from "@/components/Footer.astro";
 import ButtonTheme from "@/components/ui/ButtonTheme.astro";
 const posts = (await getCollection("blog")).toSorted(
-  (a, b) => a.data.indice - b.data.indice
+  (a, b) => a.data.indice - b.data.indice,
 );
 
 const ANIMATED_LIMIT = 5;
@@ -164,7 +164,7 @@ const ANIMATED_LIMIT = 5;
         >
           <a
             target="_blank"
-            href="https://www.instagram.com/brugarciaok/"
+            href="https://www.instagram.com/bruugarcia_/"
             class="animate-fade-in-fast flex items-center justify-center sm:justify-start w-full gap-1.5 text-sm font-medium text-neutral-600 dark:text-neutral-400 py-1 cursor-pointer hover:underline underline-offset-3 focus-visible:underline"
             ><Instagram classname="size-4" /> Instagram</a
           ><a
@@ -269,7 +269,7 @@ const ANIMATED_LIMIT = 5;
                 </a>
               </div>
             );
-          }
+          },
         )
       }
     </section>

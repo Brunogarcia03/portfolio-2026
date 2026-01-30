@@ -1,0 +1,14 @@
+---
+titulo: "Tres de Enero"
+creado: "9 de enero de 2026"
+descripcion: "Cambiará el tiempo pero yo no, mi corazón obstinado se perpetúa en su memoria."
+imagen: "/blog/18.webp"
+indice: 18
+prev: "el-amor-en-la-vida-de-un-hombre"
+---
+
+La lejana noche, que mi memoria intenta olvidar, en la que aquella mujer me atormentó con el suplicio despótico de dejarme un corazón roto, pude divisar detrás del rectángulo del ventanal la incipiente agonía de un gato moribundo después de dos o tres mordidas del perro vecino. El hecho no solo me dolió por la escena, sino también porque vi cómo la irreversibilidad de los procesos del universo avanzan en una dirección inobjetable, marcando un cambio constante hacia la desaparición de su recuerdo. Comprendí que esa muerte, ese dolor, era el primero de muchos que poco a poco trazaría la flecha del tiempo alejándome de sus ojos azules.
+
+Cambiará el tiempo pero yo no, mi corazón obstinado se perpetúa en su memoria. Sé que cercano al día yo la llegué a odiar; hoy, lejana ella me seduce sin esperanza, pero también sin humillación. El tres de enero fue su cumpleaños; el intrincado laberinto de conexiones sinápticas de nuevo me mostraron sus fotos, de nuevo estudiaría su belleza ineludible en la cena de Navidad del 2020, de nuevo su sonrisa; ella con su vestido rojo, ella con el gato que aludía al Dios que supo ser toro, roble, águila o rayo. Ella caminando a mi lado, ella acostada en la cama, cuando el cristiano, borracho y drogado, se derramó sobre su Bendita creación.
+
+Hoy no estoy obligado a justificarme con mi corazón. Muchas mujeres han pasado de por medio como para que piense que nuestro amor nos ha ofrecido unas minucias de ternura y enseñanzas, y el dolor se mude en otros dolores, y el amor en otros amores. Aun así, quemaré los libros de la mente, cuyas páginas me hacen compararla con cualquiera. Algún día en el crepúsculo, abarrotado en la cima del puente, recordaré su intacto nombre.

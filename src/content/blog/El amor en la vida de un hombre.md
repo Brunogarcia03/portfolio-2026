@@ -5,6 +5,7 @@ descripcion: "Muchas noches intenté el arte de su olvido, tantas noches lo inte
 imagen: "/blog/17.webp"
 indice: 17
 prev: "el-federal-emerenciano-basilio-de-figueroa"
+next: "tres-de-enero"
 ---
 
 Ojalá que no llueva… —se dijo, mientras se abotonaba la camisa—. Cómo me gustaría que me volviera a mirar como yo la miro, pero ella es hermosa y yo un pobre cobarde. Cómo me gustaría tomarla del brazo y decirle al oído esas cosas que los jóvenes le dicen a las chicas, a escondidas, y en la oscuridad; esas perversiones del sexo y la pasión, pero soy un pobre cobarde, y le temo a las palabras y a los pensamientos y al amor y sobre todo a sus ojos gravemente desafiantes.
