@@ -25,11 +25,11 @@ const { title, image, tech = [], description, repo, demo } = Astro.props;
   <div class="w-full sm:w-[90%] mx-auto md:w-full">
     <div class="flex items-center justify-between">
       <a href={demo} target="_blank" class="cursor-pointer">
-        <h4
+        <h6
           class="font-bold text-base md:text-[18px] text-neutral-800 dark:text-neutral-300"
         >
           {title}
-        </h4>
+        </h6>
       </a>
       {
         repo && (

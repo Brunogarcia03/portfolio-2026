@@ -1,4 +1,6 @@
 ---
+import Image from "astro/components/Image.astro";
+
 const { href, title, description, imagen, icon } = Astro.props;
 ---
 
@@ -10,20 +12,26 @@ const { href, title, description, imagen, icon } = Astro.props;
     <div
       class="relative hidden sm:block rounded-[10px] overflow-hidden w-16 h-14"
     >
-      <img
-        class="absolute inset-0 w-full h-full object-cover"
+      <Image
         src={imagen}
         alt={`Imagen de ${title}`}
+        width={64}
+        height={56}
+        sizes="64px"
+        format="webp"
+        quality={60}
+        loading="lazy"
+        class="absolute inset-0 w-full h-full object-cover"
       />
     </div>
 
     <div class="flex flex-col w-full">
-      <h4
+      <h6
         class="flex items-center gap-1 text-base font-medium text-neutral-800 dark:text-neutral-300 group-hover:text-neutral-600 dark:group-hover:text-neutral-500 transition-colors duration-300"
       >
         {title}
         {icon && <span aria-hidden="true">{icon}</span>}
-      </h4><p
+      </h6><p
         class="text-sm leading-6 text-neutral-600 dark:text-neutral-400 group-hover:text-neutral-500 dark:group-hover:text-neutral-600 transition-colors duration-300"
       >
         {description}
